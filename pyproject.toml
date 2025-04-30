@@ -5,6 +5,7 @@ description = "Babel is an advanced tool that scrapes conference paper informati
 license = "MIT"
 authors = ["cvpaper.challenge alumni community"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -16,6 +17,7 @@ wordcloud = "^1.9.3"
 nltk = "^3.8.1"
 tqdm = "^4.66.4"
 urllib3 = "^2.2.1"
+openreview-py = "^1.48.1"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.4.1"
