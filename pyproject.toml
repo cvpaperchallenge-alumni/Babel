@@ -5,10 +5,12 @@ description = "Babel is an advanced tool that scrapes conference paper informati
 license = "MIT"
 authors = ["cvpaper.challenge alumni community"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
 requests = "^2.31.0"
+openreview-py = { git = "https://github.com/openreview/openreview-py.git"}
 beautifulsoup4 = "^4.12.3"
 pydantic = "^2.7.1"
 types-requests = "^2.31.0.20240406"
