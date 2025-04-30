@@ -65,23 +65,23 @@ def get_papers(conference: str, year: int) -> List[Dict[str, str]]:
         ValueError: If the conference is not supported or the year is invalid.
     """
     venue_id = _validate_conference(conference, year)
-    client   = openreview.api.OpenReviewClient(baseurl="https://api2.openreview.net")
+    client = openreview.api.OpenReviewClient(baseurl="https://api2.openreview.net")
 
     # Retrieve accepted submissions by filtering on venueid, without using invitations
     logger.info(f"Querying accepted submissions with venueid='{venue_id}'")
-    notes = client.get_all_notes(content={'venueid': venue_id})
+    notes = client.get_all_notes(content={"venueid": venue_id})
     logger.info(f"Fetched {len(notes)} accepted submissions")
 
     papers: List[Dict[str, str]] = []
     for n in notes:
         c = n.content
-        title   = _normalize_value(c.get("title"))
+        title = _normalize_value(c.get("title"))
         authors = _normalize_value(c.get("authors") or c.get("authorids"))
         if isinstance(authors, list):
             authors = ", ".join(authors)
         abstract = _normalize_value(c.get("abstract"))
         page_url = f"https://openreview.net/forum?id={n.id}"
-        pdf_url   = f"https://openreview.net/pdf?id={n.id}"
+        pdf_url = f"https://openreview.net/pdf?id={n.id}"
 
         papers.append(
             {
