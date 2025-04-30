@@ -13,21 +13,6 @@ logger: Final = logging.getLogger(__name__)
 
 
 # ---------- Internal Utilities ---------- #
-def _normalize_value(field) -> str:
-    """OpenReview V2 stores many fields as {"value": ...}.
-    If the input is a dict, return the 'value'; otherwise return it unchanged.
-
-    Args:
-        field: The field to normalize.
-
-    Returns:
-        str: The normalized value.
-    """
-    if isinstance(field, dict):
-        return field.get("value", "")
-    return field
-
-
 def _validate_conference(conference: str, year: int) -> str:
     """Construct and validate the VENUE_ID for the specified conference and year.
     Currently supports ICML from 2020 onwards.
@@ -77,11 +62,11 @@ def get_papers(conference: str, year: int) -> List[Dict[str, str]]:
     papers: List[Dict[str, str]] = []
     for n in notes:
         c = n.content
-        title = _normalize_value(c.get("title"))
-        authors = _normalize_value(c.get("authors") or c.get("authorids"))
+        title = c.get("title")["value"]
+        authors = c.get("authors")["value"]
         if isinstance(authors, list):
             authors = ", ".join(authors)
-        abstract = _normalize_value(c.get("abstract"))
+        abstract = c.get("abstract")["value"]
         page_url = f"https://openreview.net/forum?id={n.id}"
         pdf_url = f"https://openreview.net/pdf?id={n.id}"
 
