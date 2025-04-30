@@ -948,8 +948,9 @@ description = "OpenReview API Python client library"
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
-files = []
-develop = false
+files = [
+    {file = "openreview_py-1.48.1-py3-none-any.whl", hash = "sha256:c1a49101a0040e4d15fe4bb6b5fb36a09bdcfeb726ef3afc622d975bf912be19"},
+]
 
 [package.dependencies]
 Deprecated = "*"
@@ -963,12 +964,6 @@ tqdm = "*"
 
 [package.extras]
 docs = ["nbformat", "nbsphinx", "sphinx", "sphinx_rtd_theme"]
-
-[package.source]
-type = "git"
-url = "https://github.com/openreview/openreview-py.git"
-reference = "HEAD"
-resolved_reference = "791983ca7794cdf53affce9d0e12c6a8bcb1dc36"
 
 [[package]]
 name = "packaging"
@@ -1856,4 +1851,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "fbbf198db0af93a82bd06c9072c2580e08d03206cf239c57c25eeab3873e8c86"
+content-hash = "acd01c653b85ed809f7c44262e5e21a910a170eb86f4602afe32d742143cf373"

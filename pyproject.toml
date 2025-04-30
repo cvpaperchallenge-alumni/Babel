@@ -10,7 +10,6 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.10"
 requests = "^2.31.0"
-openreview-py = { git = "https://github.com/openreview/openreview-py.git"}
 beautifulsoup4 = "^4.12.3"
 pydantic = "^2.7.1"
 types-requests = "^2.31.0.20240406"
@@ -18,6 +17,7 @@ wordcloud = "^1.9.3"
 nltk = "^3.8.1"
 tqdm = "^4.66.4"
 urllib3 = "^2.2.1"
+openreview-py = "^1.48.1"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.4.1"
