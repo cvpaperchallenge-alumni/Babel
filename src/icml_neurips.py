@@ -1,4 +1,4 @@
-"""For ICML: Retrieve accepted paper metadata (title / authors / abstract / page / pdf).
+"""For ICML and NeurIPS: Retrieve accepted paper metadata (title / authors / abstract / page / pdf).
 Dependencies: openreview-py.
 """
 
@@ -15,7 +15,7 @@ logger: Final = logging.getLogger(__name__)
 # ---------- Internal Utilities ---------- #
 def _validate_conference(conference: str, year: int) -> str:
     """Construct and validate the VENUE_ID for the specified conference and year.
-    Currently supports ICML from 2020 onwards.
+    Currently supports ICML and NeurIPS from 2020 onwards.
 
     Args:
         conference (str): The conference name.
@@ -32,6 +32,10 @@ def _validate_conference(conference: str, year: int) -> str:
         if year < 2020:
             raise ValueError("Please specify ICML for the year 2020 or later.")
         return f"ICML.cc/{year}/Conference"
+    elif conf in {"neurips_openreview", "neurips.cc"}:
+        if year < 2020:
+            raise ValueError("Please specify NeurIPS for the year 2020 or later.")
+        return f"NeurIPS.cc/{year}/Conference"
     raise ValueError(f"Unsupported conference: {conference}")
 
 
@@ -86,3 +90,5 @@ def get_papers(conference: str, year: int) -> List[Dict[str, str]]:
 if __name__ == "__main__":
     icml24 = get_papers("ICML", 2024)
     print(f"First paper metadata:\n{icml24[0]}")
+    NeurIPS24 = get_papers("NeurIPS", 2024)
+    print(f"First paper metadata:\n{NeurIPS24[0]}")
