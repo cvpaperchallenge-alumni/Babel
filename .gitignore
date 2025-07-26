@@ -1,6 +1,7 @@
 models/*
 __pycache__
 .coverage
+.DS_Store
 .mypy_cache
 .pytest_cache
 .venv
