@@ -14,6 +14,11 @@ ENV DEBIAN_FRONTEND="noninteractive" \
     LANG="C.UTF-8" \
     PYTHONPATH=${APPLICATION_DIRECTORY}
 
+RUN apt update && \
+    apt install --no-install-recommends -y gcc python3-dev libjpeg-dev zlib1g-dev libpng-dev \
+    && pip install --no-cache-dir --upgrade pip setuptools wheel \
+    && rm -rf /var/lib/apt/lists/*
+
 RUN apt update \
     && apt install --no-install-recommends -y git curl make \
     && pip3 install poetry
