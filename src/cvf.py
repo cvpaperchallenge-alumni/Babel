@@ -106,7 +106,7 @@ def validate_conference(conference: str, year: int) -> str:
             )
         return f"CVPR{year}"
     elif conference == "iccv":
-        if year not in range(2013, 2024, 2):
+        if year not in range(2013, 2026, 2):
             raise ValueError(
                 "ICCV conference is held from 2013 to 2023 every two years. \
                 Please specify the year in the range."
