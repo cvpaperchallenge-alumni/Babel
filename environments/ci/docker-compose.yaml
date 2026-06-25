@@ -3,7 +3,7 @@ services:
     image: ci
     build:
       args:
-        - RUN_POETRY_INSTALL_AT_BUILD_TIME=true
+        - RUN_UV_INSTALL_AT_BUILD_TIME=true
         - PROJECT_NAME=${PROJECT_NAME_ENV}
       context: ../../
       dockerfile: environments/Dockerfile
