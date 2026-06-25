@@ -7,7 +7,7 @@ ARG GROUP_NAME=challengers
 ARG UID=1000
 ARG GID=1000
 ARG APPLICATION_DIRECTORY=/home/${USER_NAME}/${PROJECT_NAME}
-ARG RUN_POETRY_INSTALL_AT_BUILD_TIME="false"
+ARG RUN_UV_INSTALL_AT_BUILD_TIME="false"
 
 ENV DEBIAN_FRONTEND="noninteractive" \
     LC_ALL="C.UTF-8" \
@@ -21,7 +21,10 @@ RUN apt update && \
 
 RUN apt update \
     && apt install --no-install-recommends -y git curl make \
-    && pip3 install poetry
+    && rm -rf /var/lib/apt/lists/*
+
+# Install uv from the official image — version-pinned, no Python dependency.
+COPY --from=ghcr.io/astral-sh/uv:0.11.24 /uv /uvx /bin/
 
 # Add user. Without this, following process is executed as admin.
 RUN groupadd -g ${GID} ${GROUP_NAME} \
@@ -30,8 +33,8 @@ RUN groupadd -g ${GID} ${GROUP_NAME} \
 USER ${USER_NAME}
 WORKDIR ${APPLICATION_DIRECTORY}
 
-# If ${RUN_POETRY_INSTALL_AT_BUILD_TIME} = "true", install Python package by Poetry and move .venv under ${HOME}.
+# If ${RUN_UV_INSTALL_AT_BUILD_TIME} = "true", install Python packages with uv and move .venv under ${HOME}.
 # This process is for CI (GitHub Actions). To prevent overwrite by volume of docker compose, .venv is moved under ${HOME}.
-COPY --chown=${UID}:${GID} pyproject.toml poetry.lock poetry.toml .
-RUN test ${RUN_POETRY_INSTALL_AT_BUILD_TIME} = "true" && poetry install || echo "skip to run poetry install."
-RUN test ${RUN_POETRY_INSTALL_AT_BUILD_TIME} = "true" && mv ${APPLICATION_DIRECTORY}/.venv ${HOME}/.venv || echo "skip to move .venv."
+COPY --chown=${UID}:${GID} pyproject.toml uv.lock .
+RUN test ${RUN_UV_INSTALL_AT_BUILD_TIME} = "true" && uv sync --frozen || echo "skip to run uv sync."
+RUN test ${RUN_UV_INSTALL_AT_BUILD_TIME} = "true" && mv ${APPLICATION_DIRECTORY}/.venv ${HOME}/.venv || echo "skip to move .venv."

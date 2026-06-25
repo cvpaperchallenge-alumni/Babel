@@ -8,8 +8,8 @@ Babel is a tool that scrapes accepted-paper metadata from major Computer Vision 
 The pipeline has three stages:
 
 1. **Scrape** conference pages → JSON of papers (`data/json/`).
-2. **Analyze word frequency** (1〜N-gram) over titles (optionally + abstracts) → CSV (`outputs/raw_frequency/`, then filtered into `outputs/adjusted_frequency/`).
-3. **Generate word clouds** from the JSON or filtered CSV → PNG (`outputs/wordcloud/`).
+1. **Analyze word frequency** (1〜N-gram) over titles (optionally + abstracts) → CSV (`outputs/raw_frequency/`, then filtered into `outputs/adjusted_frequency/`).
+1. **Generate word clouds** from the JSON or filtered CSV → PNG (`outputs/wordcloud/`).
 
 ## Project Organization
 
@@ -49,22 +49,22 @@ The pipeline has three stages:
     ├── tests/                 <- Test code.
     │
     ├── Makefile               <- Commands for lint / format / test automation.
-    ├── poetry.lock            <- Auto-generated lock file (do not edit manually).
-    ├── poetry.toml            <- Poetry configuration.
-    ├── pyproject.toml         <- Main project configuration.
+    ├── mise.toml              <- mise tool pins (Python, uv).
+    ├── pyproject.toml         <- Main project configuration (PEP 621).
+    ├── uv.lock                <- Auto-generated lock file (do not edit manually).
     └── README.md              <- This file.
 ```
 
 ## Supported conferences and years
 
-| Conference | Scraper module       | Source                                              | Supported years (validator)    |
-| ---------- | -------------------- | --------------------------------------------------- | ------------------------------ |
-| CVPR       | `src/cvf.py`         | `openaccess.thecvf.com/CVPR{year}`                  | 2013–2025                      |
-| ICCV       | `src/cvf.py`         | `openaccess.thecvf.com/ICCV{year}` (odd years)      | 2013, 2015, …, 2025            |
-| ECCV       | `src/eccv.py`        | `ecva.net/papers.php` (filtered by `eccv_{year}`)   | no validator — pass any year   |
-| NeurIPS    | `src/neurips.py`     | `papers.nips.cc/paper_files/paper/{year}`           | no enforced validator          |
-| ICML       | `src/icml.py`        | OpenReview API (`ICML.cc/{year}/Conference`)        | 2020 onwards                   |
-| CVPRW      | `src/cvf_ws.py`      | `openaccess.thecvf.com/CVPR{year}_workshops/menu`   | 2018–2023                      |
+| Conference | Scraper module   | Source                                            | Supported years (validator)  |
+| ---------- | ---------------- | ------------------------------------------------- | ---------------------------- |
+| CVPR       | `src/cvf.py`     | `openaccess.thecvf.com/CVPR{year}`                | 2013–2025                    |
+| ICCV       | `src/cvf.py`     | `openaccess.thecvf.com/ICCV{year}` (odd years)    | 2013, 2015, …, 2025          |
+| ECCV       | `src/eccv.py`    | `ecva.net/papers.php` (filtered by `eccv_{year}`) | no validator — pass any year |
+| NeurIPS    | `src/neurips.py` | `papers.nips.cc/paper_files/paper/{year}`         | no enforced validator        |
+| ICML       | `src/icml.py`    | OpenReview API (`ICML.cc/{year}/Conference`)      | 2020 onwards                 |
+| CVPRW      | `src/cvf_ws.py`  | `openaccess.thecvf.com/CVPR{year}_workshops/menu` | 2018–2023                    |
 
 > [!NOTE]
 > The current set of scraped JSON files lives in `data/json/`. `data/json/papers.md` records the source URL and accepted-paper count for each existing JSON so you can sanity-check a new scrape against the historical baseline.
@@ -88,17 +88,17 @@ docker compose up -d
 docker compose exec core bash
 
 # Inside the container, install Python deps (skipped at build time by default).
-poetry install
+uv sync
 ```
 
-All commands in the rest of this README assume you are inside the container (or have an equivalent Poetry environment locally).
+All commands in the rest of this README assume you are inside the container (or have an equivalent uv environment locally).
 
 ## Usage
 
 ### 1. Scrape a conference page
 
 ```bash
-poetry run python3 src/scripts/scrape_conference_page.py \
+uv run python3 src/scripts/scrape_conference_page.py \
     -c <conference> \
     -y <year> \
     -o ./data/json
@@ -127,7 +127,7 @@ The script writes `./data/json/{conference}{year}_papers.json` containing a list
 > - **ICML (`icml.py`)** — uses the OpenReview API v2, not HTML scraping. Output JSON uses the key `authors` (instead of `author`), which differs from the other scrapers — keep this in mind when feeding it into downstream stages.
 > - **CVPR fallback (`cvpr.py`)** — when CVF Open Access does not yet have the abstracts, this module scrapes only title+authors from the official accepted-papers page and supplements abstract / page / pdf via arXiv search. It is currently *not* wired into `scrape_conference_page.py` (the relevant lines are commented out); call it directly:
 >   ```bash
->   poetry run python3 -c "import pathlib; from src.cvpr import get_papers; get_papers(year=2024, output_path=pathlib.Path('./data/json/cvpr2024_papers.json'))"
+>   uv run python3 -c "import pathlib; from src.cvpr import get_papers; get_papers(year=2024, output_path=pathlib.Path('./data/json/cvpr2024_papers.json'))"
 >   ```
 >   It checkpoints progress incrementally so a re-run resumes where it left off.
 
@@ -136,7 +136,7 @@ The script writes `./data/json/{conference}{year}_papers.json` containing a list
 **Single file:**
 
 ```bash
-poetry run python3 src/scripts/analyze_word_frequency.py \
+uv run python3 src/scripts/analyze_word_frequency.py \
     -i ./data/json/cvpr2025_papers.json \
     -n 3            # max n-gram size (default 3)
     [--use-abstract]
@@ -147,7 +147,7 @@ Outputs land in `./outputs/raw_frequency/title_only/` or `…/title_and_abstract
 **All JSON files in `data/json/` at once** (runs both with and without `--use-abstract`):
 
 ```bash
-poetry run python3 src/scripts/run_all_analyze_word_frequency.py
+uv run python3 src/scripts/run_all_analyze_word_frequency.py
 ```
 
 ### 3. Filter the frequency CSVs
@@ -159,7 +159,7 @@ The raw output still contains noisy n-grams. This stage removes:
 - n-grams containing any token from `data/partial_match_stopwords.txt`.
 
 ```bash
-poetry run python3 src/scripts/adjust_frequency_analysis_result.py \
+uv run python3 src/scripts/adjust_frequency_analysis_result.py \
     -i ./outputs/raw_frequency/title_only/cvpr2025_papers_title_only_3gram.csv \
     -o ./outputs/adjusted_frequency \
     -m 6
@@ -168,7 +168,7 @@ poetry run python3 src/scripts/adjust_frequency_analysis_result.py \
 **Batch all raw CSVs:**
 
 ```bash
-poetry run python3 src/scripts/run_all_adjust_frequency_analysis_result.py
+uv run python3 src/scripts/run_all_adjust_frequency_analysis_result.py
 ```
 
 ### 4. Generate word clouds
@@ -177,7 +177,7 @@ The generator accepts either input:
 
 - **JSON paper file** — uses the `wordcloud` library's own tokenizer and the stopword set in `data/stopwords.txt`:
   ```bash
-  poetry run python3 src/scripts/generate_wordcloud.py \
+  uv run python3 src/scripts/generate_wordcloud.py \
       -i ./data/json/cvpr2025_papers.json \
       -o ./outputs/wordcloud \
       --seed 42 \
@@ -185,7 +185,7 @@ The generator accepts either input:
   ```
 - **Adjusted-frequency CSV** — renders directly from precomputed counts (recommended for reproducible output identical to the existing PNGs):
   ```bash
-  poetry run python3 src/scripts/generate_wordcloud.py \
+  uv run python3 src/scripts/generate_wordcloud.py \
       -i ./outputs/adjusted_frequency/title_only/cvpr2025_papers_title_only_3gram_adjusted.csv \
       -o ./outputs/wordcloud \
       --seed 42
@@ -194,7 +194,7 @@ The generator accepts either input:
 **Batch all adjusted CSVs:**
 
 ```bash
-poetry run python3 src/scripts/run_all_generate_wordcloud.py
+uv run python3 src/scripts/run_all_generate_wordcloud.py
 ```
 
 ### End-to-end for a new conference-year
@@ -202,14 +202,14 @@ poetry run python3 src/scripts/run_all_generate_wordcloud.py
 ```bash
 # 1. Make sure the validator allows the new year (edit src/{cvf,cvf_ws,icml,…}.py if needed).
 # 2. Scrape:
-poetry run python3 src/scripts/scrape_conference_page.py -c cvpr -y 2026
+uv run python3 src/scripts/scrape_conference_page.py -c cvpr -y 2026
 
 # 3. Record source URL + paper count in data/json/papers.md.
 
 # 4. Re-run the analysis pipeline over every JSON:
-poetry run python3 src/scripts/run_all_analyze_word_frequency.py
-poetry run python3 src/scripts/run_all_adjust_frequency_analysis_result.py
-poetry run python3 src/scripts/run_all_generate_wordcloud.py
+uv run python3 src/scripts/run_all_analyze_word_frequency.py
+uv run python3 src/scripts/run_all_adjust_frequency_analysis_result.py
+uv run python3 src/scripts/run_all_generate_wordcloud.py
 ```
 
 ## Development
