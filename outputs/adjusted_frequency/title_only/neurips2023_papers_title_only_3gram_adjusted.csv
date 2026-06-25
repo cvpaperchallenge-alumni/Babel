@@ -128,6 +128,7 @@ scalable,27
 series,27
 time series,27
 contrastive learning,26
+multimodal,26
 pre-training,26
 spectral,26
 text-to-image,26
@@ -139,7 +140,6 @@ explanation,25
 generalized,25
 improved,25
 local,25
-multimodal,25
 object detection,25
 rl,25
 structured,25
@@ -513,6 +513,7 @@ semi-supervised learning,9
 signal,9
 solver,9
 spatio-temporal,9
+speech,9
 supervision,9
 uncovering,9
 update,9
@@ -578,7 +579,6 @@ rendering,8
 series forecasting,8
 sgd,8
 small,8
-speech,8
 statistic,8
 study,8
 symbolic,8

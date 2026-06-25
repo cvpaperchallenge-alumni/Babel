@@ -1,11 +1,11 @@
 word,count
 model,3493
 learning,3413
-algorithm,1982
+algorithm,1984
 network,1953
 data,1898
 show,1547
-neural,1478
+neural,1479
 training,1366
 result,1181
 performance,1131
@@ -24,10 +24,10 @@ setting,806
 deep,794
 ha,791
 sample,738
+framework,735
 also,734
-framework,734
 optimization,728
-gradient,720
+gradient,722
 however,706
 existing,695
 experiment,692
@@ -49,23 +49,23 @@ prediction,520
 generalization,517
 provide,514
 parameter,512
-input,491
+input,492
 dynamic,482
 point,480
 optimal,479
 process,479
 linear,474
+transformer,470
 adversarial,469
-transformer,469
-architecture,466
+architecture,467
 learn,461
 reinforcement,459
 reinforcement learning,455
 many,454
-complexity,447
+complexity,448
 accuracy,444
 efficient,444
-benchmark,440
+benchmark,441
 use,440
 classification,435
 stochastic,434
@@ -112,8 +112,8 @@ robustness,334
 often,327
 online,326
 visual,326
+example,323
 environment,320
-example,320
 trained,320
 estimation,319
 standard,318
@@ -154,7 +154,7 @@ empirical,284
 real-world,284
 compared,283
 constraint,283
-detection,275
+detection,276
 due,270
 noise,269
 step,268
@@ -214,8 +214,8 @@ k,226
 complex,222
 global,221
 small,221
+modeling,220
 vision,220
-modeling,219
 observation,219
 behavior,216
 factor,216
@@ -228,8 +228,8 @@ query,209
 require,209
 effect,208
 lower bound,208
+theory,208
 moreover,207
-theory,207
 important,206
 output,206
 effectiveness,205
@@ -238,11 +238,11 @@ best,203
 experimental,203
 issue,203
 continuous,202
+measure,202
 allows,201
 obtain,200
 question,200
 efficiency,199
-measure,199
 offline,199
 synthetic,198
 computation,197
@@ -250,12 +250,12 @@ flow,197
 contrastive,195
 real,195
 way,195
+adaptive,194
 classifier,194
 i.e.,194
 popular,194
-adaptive,193
 capture,193
-component,191
+component,192
 convex,191
 limited,191
 scale,190
@@ -265,8 +265,8 @@ practical,189
 finding,188
 common,187
 dimension,187
+doe,187
 improves,187
-doe,186
 scheme,186
 semantic,184
 strong,184
@@ -350,11 +350,11 @@ unknown,146
 applied,145
 faster,145
 generative model,145
+solving,145
 underlying,145
 among,144
 independent,144
 numerical,144
-solving,144
 compression,143
 gnns,143
 instead,143
@@ -375,6 +375,7 @@ fast,137
 generate,137
 noisy,137
 take,137
+score,136
 module,135
 spatial,135
 specific,135
@@ -382,11 +383,10 @@ arbitrary,134
 benefit,134
 experimental result,134
 family,134
-score,134
+sample complexity,134
 text,134
 highly,133
 markov,133
-sample complexity,133
 conditional,132
 downstream,132
 graph neural,132
@@ -542,12 +542,12 @@ et al,101
 explicit,101
 geometric,101
 inspired,101
-le,101
 learning rl,101
 pair,101
 powerful,101
 reinforcement learning rl,101
 joint,100
+less,100
 mixture,100
 neuron,100
 paradigm,100
@@ -888,6 +888,7 @@ central,63
 computational cost,63
 entropy,63
 necessary,63
+progress,63
 propagation,63
 studied,63
 automatically,62
@@ -900,11 +901,11 @@ largely,62
 latent variable,62
 markov decision process,62
 principled,62
-progress,62
 self-supervised learning,62
 smaller,62
 strongly,62
 student,62
+substantially,62
 wide range,62
 word,62
 converges,61
@@ -916,7 +917,6 @@ offer,61
 partition,61
 per,61
 rich,61
-substantially,61
 demonstrated,60
 functional,60
 influence,60
@@ -1041,6 +1041,7 @@ reduced,53
 regularized,53
 semantic segmentation,53
 state-of-the-art result,53
+–,53
 asymptotically,52
 auxiliary,52
 continual learning,52
@@ -1186,6 +1187,7 @@ inherent,46
 learning ha,46
 location,46
 neural architecture,46
+optimized,46
 pairwise,46
 perception,46
 pixel,46
@@ -1218,7 +1220,6 @@ localization,45
 logarithmic,45
 navigation,45
 network architecture,45
-optimized,45
 patch,45
 safe,45
 setup,45
@@ -1279,6 +1280,7 @@ state art,43
 topological,43
 topology,43
 varying,43
+adversarial example,42
 becomes,42
 computed,42
 convex optimization,42
@@ -1311,7 +1313,6 @@ ai,41
 deep generative,41
 demonstrate proposed,41
 denoising,41
-discus,41
 exist,41
 experimental result show,41
 exponentially,41
@@ -1339,13 +1340,13 @@ sufficiently,41
 taking,41
 training set,41
 additive,40
-adversarial example,40
 also provide,40
 answering,40
 arbitrarily,40
 assignment,40
 basis,40
 bayesian optimization,40
+bellman,40
 boost,40
 box,40
 capable,40
@@ -1356,6 +1357,7 @@ core,40
 curve,40
 depend,40
 dimensionality,40
+discus,40
 empirical result,40
 evaluating,40
 fashion,40
@@ -1382,10 +1384,11 @@ real data,40
 resolution,40
 rl agent,40
 successfully,40
+symmetry,40
+—,40
 autoencoder,39
 backdoor,39
 behavioral,39
-bellman,39
 broad,39
 chain,39
 confirm,39
@@ -1409,7 +1412,6 @@ player,39
 recent advance,39
 rigorous,39
 slow,39
-symmetry,39
 synthetic data,39
 though,39
 top,39
@@ -1681,6 +1683,7 @@ market,32
 mirror,32
 modification,32
 nash,32
+obtaining,32
 paper proposes,32
 positional,32
 pure,32
@@ -1699,7 +1702,6 @@ training method,32
 turn,32
 uniformly,32
 worse,32
-–,32
 aligned,31
 automated,31
 bridge,31
@@ -1719,7 +1721,6 @@ imbalance,31
 key challenge,31
 l,31
 labeling,31
-obtaining,31
 plasticity,31
 quantification,31
 real-world application,31
@@ -1823,6 +1824,7 @@ scratch,29
 significantly improves,29
 source target,29
 sublinear,29
+tend,29
 tighter,29
 train model,29
 training time,29
@@ -1835,6 +1837,7 @@ achieve state-of-the-art,28
 aggregate,28
 algorithm achieves,28
 align,28
+alone,28
 animal,28
 assuming,28
 asynchronous,28
@@ -1870,7 +1873,6 @@ simple yet effective,28
 state space,28
 suite,28
 systematically,28
-tend,28
 tradeoff,28
 training deep,28
 transferable,28
@@ -1881,7 +1883,6 @@ yet effective,28
 achieves state-of-the-art performance,27
 add,27
 adopted,27
-alone,27
 calibrated,27
 certified,27
 changing,27
@@ -1903,6 +1904,7 @@ ground truth,27
 independence,27
 inverse problem,27
 kl,27
+latency,27
 likely,27
 longer,27
 minimizes,27
@@ -1971,7 +1973,6 @@ input feature,26
 integral,26
 k -means,26
 knowledge transfer,26
-latency,26
 learning agent,26
 learning-based,26
 least square,26
@@ -2084,7 +2085,6 @@ unifying,25
 vertex,25
 volume,25
 work study,25
-z,25
 activation function,24
 actor-critic,24
 adapted,24
@@ -2291,7 +2291,6 @@ ordering,22
 outperforms state-of-the-art method,22
 paired,22
 paper introduces,22
-par,22
 perturbed,22
 poisoning attack,22
 polynomial-time,22
@@ -2319,6 +2318,7 @@ w.r.t,22
 weakly,22
 wide variety,22
 yielding,22
+z,22
 3d scene,21
 adversarial perturbation,21
 already,21
@@ -2370,11 +2370,13 @@ multiplicative,21
 nesterov,21
 neural architecture search,21
 nonsmooth,21
+novel framework,21
 np-hard,21
 occurs,21
 online setting,21
 optimum,21
 over-parameterized,21
+par,21
 pathway,21
 perfect,21
 policy learning,21
@@ -2488,7 +2490,6 @@ neural model,20
 neural network model,20
 neural tangent,20
 neural tangent kernel,20
-novel framework,20
 optimal solution,20
 paper investigate,20
 patient,20
@@ -2772,7 +2773,6 @@ analysis show,17
 and/or,17
 application machine,17
 artifact,17
-ass,17
 assessment,17
 attacker,17
 back,17
@@ -2903,6 +2903,7 @@ appear,16
 application machine learning,16
 approximates,16
 arising,16
+assess,16
 assigned,16
 asymmetric,16
 balancing,16
@@ -3598,7 +3599,6 @@ performance however,13
 performance proposed,13
 persistent,13
 polynomial time,13
-posse,13
 pricing,13
 primal,13
 principal component analysis,13
@@ -4622,7 +4622,6 @@ weight-sharing,10
 well known,10
 well-suited,10
 xai,10
-—,10
 's action,9
 -th,9
 3d detection,9
@@ -5001,6 +5000,7 @@ realistic setting,9
 realization,9
 realize,9
 recent line,9
+recent progress,9
 recommender system,9
 reconstructed,9
 recursion,9
@@ -5094,6 +5094,7 @@ tree search,9
 tremendous,9
 trigger,9
 trustworthiness,9
+tuned,9
 two-step,9
 unbiased estimator,9
 underlying distribution,9
@@ -5418,6 +5419,7 @@ interpreter,8
 introduce simple,8
 investigates,8
 irl,8
+irm,8
 issue introduce,8
 joint probability,8
 justified,8
@@ -5623,7 +5625,6 @@ really,8
 realm,8
 reasoning knowledge,8
 recent approach,8
-recent progress,8
 recognizing,8
 refers,8
 refining,8
@@ -5707,6 +5708,7 @@ subgoal,8
 subgoals,8
 subproblems,8
 substantial improvement,8
+substantially improves,8
 successive,8
 successor feature,8
 sufficiency,8
@@ -5737,7 +5739,6 @@ training image,8
 training strategy,8
 transforming,8
 true label,8
-tuned,8
 two-layer neural,8
 two-sample,8
 u learn,8
@@ -6166,7 +6167,6 @@ intriguing property,7
 intrinsic dimension,7
 invariant representation,7
 inversion attack,7
-irm,7
 isolation,7
 isometry,7
 iterative refinement,7
@@ -6377,6 +6377,7 @@ pnp,7
 point estimate,7
 policy update,7
 population risk,7
+possesses,7
 practicality,7
 practice however,7
 pre-trained language,7
@@ -6428,6 +6429,7 @@ random fourier,7
 rate-optimal,7
 raw data,7
 re-weighting,7
+react,7
 reaction,7
 reading,7
 real image,7
@@ -6566,7 +6568,6 @@ study demonstrate,7
 sub-problems,7
 subgradient,7
 subsampling,7
-substantially improves,7
 substantially outperforms,7
 subtle,7
 success rate,7
@@ -7226,6 +7227,7 @@ inherit,6
 inject,6
 innovative,6
 input dimension,6
+input gradient,6
 input however,6
 inspired observation,6
 instance discrimination,6
@@ -7261,6 +7263,7 @@ key role,6
 kgae,6
 kitti,6
 knowledge work,6
+kolmogorov,6
 l2ight,6
 label available,6
 label training,6
@@ -7273,7 +7276,6 @@ latent process,6
 latents,6
 layer deep,6
 lazy,6
-le data,6
 leadcache,6
 learn robust,6
 learnability,6
@@ -7297,6 +7299,7 @@ learning work,6
 learning-augmented,6
 learning-theoretic,6
 leaving,6
+less data,6
 likelihood estimator,6
 limit theorem,6
 linear case,6
@@ -7570,6 +7573,7 @@ perceptrons,6
 perform experiment,6
 performance comparable,6
 performance different,6
+performance measure,6
 performance predictor,6
 performance study,6
 performs better,6
@@ -7599,6 +7603,7 @@ pose shape,6
 positional embeddings,6
 positive definite,6
 positive pair,6
+possess,6
 posterior inference,6
 posteriori,6
 posting,6
@@ -7678,7 +7683,6 @@ rank-,6
 rank-1,6
 rationality,6
 rbns,6
-react,6
 real world datasets,6
 realistic image,6
 reasonably,6
@@ -7801,7 +7805,7 @@ significant challenge,6
 significant performance improvement,6
 significantly fewer,6
 significantly improved,6
-significantly le,6
+significantly less,6
 silg,6
 similarity graph,6
 similarity measure,6

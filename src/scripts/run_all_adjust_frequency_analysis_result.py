@@ -28,7 +28,7 @@ if __name__ == "__main__":
         try:
             # Run the script with the specified arguments.
             result = subprocess.run(
-                ["poetry", "run", "python3", args.script_path, "-i", csv_path],
+                ["uv", "run", "python3", args.script_path, "-i", csv_path],
                 check=True,
                 capture_output=True,
                 text=True,

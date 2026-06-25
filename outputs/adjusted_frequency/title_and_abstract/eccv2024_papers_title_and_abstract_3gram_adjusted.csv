@@ -1,27 +1,27 @@
 word,count
 model,5266
-image,3590
-3d,2106
+image,3594
+3d,2107
 object,1750
 data,1726
-propose,1694
-feature,1633
+propose,1695
+feature,1634
 performance,1622
 learning,1620
 video,1464
-training,1395
+training,1396
 diffusion,1238
 representation,1227
 scene,1163
 generation,1143
-datasets,1133
+datasets,1135
 existing,1128
 code,1088
 dataset,1047
 visual,1017
 state-of-the-art,993
 available,990
-framework,987
+framework,988
 result,987
 experiment,984
 however,974
@@ -31,22 +31,22 @@ segmentation,885
 motion,855
 paper,841
 network,836
-benchmark,832
+benchmark,833
 diffusion model,826
 human,799
 detection,796
 extensive,791
 challenge,766
-semantic,765
-work,744
+semantic,766
+work,745
 ’,739
+domain,713
 address,712
-domain,712
 prompt,709
 point,706
 proposed,703
 across,698
-text,678
+text,680
 show,672
 different,653
 ha,639
@@ -56,8 +56,8 @@ module,605
 also,602
 process,601
 various,598
-neural,592
-input,588
+neural,593
+input,589
 large,575
 code available,561
 knowledge,558
@@ -67,8 +67,8 @@ reconstruction,544
 space,542
 quality,536
 extensive experiment,531
+language,525
 achieves,524
-language,524
 camera,509
 due,506
 multiple,500
@@ -85,9 +85,9 @@ previous,459
 design,457
 issue,450
 temporal,450
-field,448
+field,449
 effectiveness,437
-loss,434
+loss,435
 transformer,433
 efficient,430
 distribution,425
@@ -96,15 +96,15 @@ challenging,421
 latent,421
 estimation,417
 capability,416
-generate,412
+generate,413
 map,410
 accuracy,408
 diverse,408
 outperforms,408
 real-world,405
+application,402
 action,401
-application,401
-achieve,395
+achieve,396
 often,395
 within,395
 effectively,393
@@ -135,11 +135,11 @@ effective,330
 study,330
 source,329
 ability,327
+including,327
 adaptation,326
 gaussian,326
 synthesis,326
 clip,325
-including,325
 spatial,325
 limited,324
 optimization,324
@@ -196,8 +196,8 @@ cost,268
 robustness,268
 adversarial,266
 mechanism,266
+setting,265
 focus,264
-setting,263
 used,263
 mask,262
 context,261
@@ -245,8 +245,8 @@ appearance,218
 bias,218
 ”,218
 adaptive,216
+paper propose,216
 step,216
-paper propose,215
 several,214
 even,213
 perception,213
@@ -274,19 +274,19 @@ sparse,204
 specific,202
 leading,201
 neural network,201
+category,200
 contrastive,200
 llm,200
 page,200
 3d object,199
-category,199
 despite,199
 supervision,199
 error,198
 guidance,197
 geometric,196
+resulting,195
 textual,195
 trajectory,195
-resulting,194
 “,194
 hand,193
 learned,193
@@ -313,9 +313,9 @@ unseen,186
 allows,185
 output,185
 large language,184
+mesh,184
 multi-modal,184
 detector,183
-mesh,183
 supervised,183
 enabling,182
 remains,182
@@ -352,10 +352,10 @@ teacher,167
 foundation,166
 restoration,166
 advancement,165
+property,164
 thereby,164
 future,163
 promising,163
-property,163
 validate,163
 many,162
 autonomous,160
@@ -392,9 +392,9 @@ radiance field,151
 computer,150
 degradation,150
 distance,150
+head,150
 realistic,150
 gaussian splatting,149
-head,149
 manner,149
 perform,149
 perspective,149
@@ -405,15 +405,15 @@ augmentation,147
 complexity,147
 model ’,146
 segment,146
+utilizing,146
 enable,145
 fully,145
 grounding,145
 typically,145
-utilizing,145
+world,144
 background,143
 second,143
 type,143
-world,143
 achieved,142
 develop,142
 attribute,141
@@ -424,11 +424,11 @@ result demonstrate,141
 compression,140
 imaging,140
 masked,140
+objective,140
 real-time,140
 resolution,140
 e.g.,139
-objective,139
-especially,138
+especially,139
 estimate,138
 fast,138
 may,138
@@ -459,11 +459,11 @@ enhances,131
 highly,131
 latent space,131
 pattern,131
+caption,130
 foundation model,130
 open-vocabulary,130
 particularly,130
 state,130
-caption,129
 general,129
 relation,129
 volume,129
@@ -504,16 +504,16 @@ question,121
 advantage,120
 autonomous driving,120
 either,120
+making,120
 precise,120
 success,120
 utilizes,120
-making,119
+quantization,119
 simultaneously,119
 backbone,118
 extract,118
 fidelity,118
 monocular,118
-quantization,118
 reducing,118
 respectively,118
 source code,118
@@ -530,12 +530,12 @@ experiment show,116
 representation learning,116
 effect,115
 insight,115
+mapping,115
 variation,115
 accurately,114
 conditional,114
 instead,114
 layout,114
-mapping,114
 novel approach,114
 support,114
 decoder,113
@@ -626,7 +626,7 @@ previous method,98
 quantitative,98
 block,97
 faster,97
-le,97
+less,97
 overall,97
 translation,97
 u,97
@@ -768,6 +768,7 @@ computational cost,80
 conducted,80
 development,80
 full,80
+known,80
 learning-based,80
 nature,80
 novel framework,80
@@ -776,7 +777,6 @@ blur,79
 fail,79
 image editing,79
 iterative,79
-known,79
 preserve,79
 short,79
 associated,78
@@ -795,6 +795,7 @@ minimal,77
 occupancy,77
 termed,77
 vehicle,77
+—,77
 ambiguity,76
 deployment,76
 explanation,76
@@ -823,6 +824,7 @@ scalable,75
 solely,75
 state-of-the-art result,75
 subsequently,75
+–,75
 3dgs,74
 able,74
 across different,74
@@ -855,6 +857,7 @@ alleviate,72
 challenge propose,72
 deformation,72
 direct,72
+element,72
 main,72
 pseudo-labels,72
 random,72
@@ -864,7 +867,6 @@ varying,72
 art,71
 assessment,71
 core,71
-element,71
 existing approach,71
 integrated,71
 methodology,71
@@ -1025,6 +1027,7 @@ extracted,59
 interpolation,59
 larger,59
 machine,59
+measurement,59
 personalized,59
 removal,59
 robot,59
@@ -1038,7 +1041,6 @@ underlying,59
 across diverse,58
 adaptively,58
 alternative,58
-ass,58
 captioning,58
 certain,58
 cross-attention,58
@@ -1046,14 +1048,12 @@ final,58
 initialization,58
 intricate,58
 match,58
-measurement,58
 path,58
 plug-and-play,58
 residual,58
 seamlessly,58
 segmentation model,58
 spatio-temporal,58
-–,58
 3d point cloud,57
 across multiple,57
 besides,57
@@ -1128,6 +1128,7 @@ old,54
 optical,54
 referring,54
 scalability,54
+adjustment,53
 adverse,53
 autoencoder,53
 community,53
@@ -1155,10 +1156,10 @@ truth,53
 versatile,53
 weakly supervised,53
 adapting,52
-adjustment,52
 aiming,52
 answer,52
 anything,52
+assess,52
 cluster,52
 convolutional,52
 data augmentation,52
@@ -1268,6 +1269,7 @@ motion generation,47
 observed,47
 outperforms previous,47
 play,47
+prior work,47
 representing,47
 scene understanding,47
 setup,47
@@ -1287,7 +1289,6 @@ generalization capability,46
 learning model,46
 outperform,46
 performance improvement,46
-prior work,46
 probabilistic,46
 sensing,46
 state-of-the-art approach,46
@@ -1320,6 +1321,7 @@ attention mechanism,44
 collaborative,44
 compared existing,44
 compared state-of-the-art,44
+decision,44
 degree,44
 diffusion prior,44
 ensures,44
@@ -1351,7 +1353,6 @@ boosting,43
 carefully,43
 correct,43
 datasets show,43
-decision,43
 disentanglement,43
 domain generalization,43
 dubbed,43
@@ -1502,6 +1503,7 @@ preservation,39
 previous state-of-the-art,39
 propagation,39
 ratio,39
+real-world application,39
 recent advance,39
 recover,39
 release,39
@@ -1548,7 +1550,6 @@ magnitude,38
 mobile,38
 predicts,38
 primary,38
-real-world application,38
 redundancy,38
 safety,38
 simulator,38
@@ -1596,6 +1597,7 @@ specifically propose,37
 stability,37
 text-guided,37
 trigger,37
+unlearning,37
 visual quality,37
 best knowledge,36
 competitive performance,36
@@ -1618,12 +1620,12 @@ propose simple,36
 real-world datasets,36
 recent study,36
 recognize,36
+sensitivity,36
 simply,36
 slow,36
 subsequent,36
 textual description,36
 trained model,36
-unlearning,36
 visually,36
 account,35
 approximation,35
@@ -1665,7 +1667,6 @@ remove,35
 report,35
 representative,35
 retraining,35
-sensitivity,35
 separately,35
 smooth,35
 sr,35
@@ -1902,6 +1903,7 @@ composed,30
 comprehensive evaluation,30
 computational overhead,30
 computational resource,30
+crowd,30
 data available,30
 demonstrate effectiveness method,30
 edited,30
@@ -1950,7 +1952,6 @@ asset,29
 becomes,29
 broader,29
 considers,29
-crowd,29
 designing,29
 distributed,29
 drop,29
@@ -2064,6 +2065,7 @@ visual information,28
 visual prompt,28
 web,28
 3d geometry,27
+3d mesh,27
 3d segmentation,27
 abstract,27
 accessible,27
@@ -2126,10 +2128,10 @@ supervised learning,27
 temporal information,27
 textured,27
 u-net,27
+various datasets,27
 vertex,27
 weak,27
 whose,27
-3d mesh,26
 3d occupancy,26
 adversarial robustness,26
 affordance,26
@@ -2149,6 +2151,7 @@ different modality,26
 disease,26
 distill,26
 doe require,26
+encompassing,26
 enforce,26
 equipped,26
 estimator,26
@@ -2183,6 +2186,7 @@ predefined,26
 propose novel approach,26
 quality assessment,26
 recent method,26
+removing,26
 restricted,26
 rethinking,26
 sampling strategy,26
@@ -2199,7 +2203,6 @@ top,26
 transferring,26
 try-on,26
 vanilla,26
-various datasets,26
 versatility,26
 video diffusion,26
 visual data,26
@@ -2235,7 +2238,6 @@ distinguish,25
 domain-specific,25
 due limited,25
 embed,25
-encompassing,25
 encourage,25
 establishes,25
 experimentally,25
@@ -2266,7 +2268,6 @@ personalization,25
 platform,25
 propose novel framework,25
 recurrent,25
-removing,25
 rendering speed,25
 runtime,25
 sampled,25
@@ -2322,6 +2323,7 @@ model size,24
 monocular video,24
 multiple object,24
 necessitates,24
+node,24
 pascal,24
 people,24
 prevalent,24
@@ -2410,9 +2412,7 @@ multi-person,23
 nearly,23
 necessity,23
 neural field,23
-node,23
 optimization process,23
-par,23
 pretrained model,23
 production,23
 prompt tuning,23
@@ -2454,7 +2454,6 @@ visual textual,23
 vl,23
 voxel,23
 vulnerable,23
-—,23
 2d diffusion,22
 3d data,22
 accordingly,22
@@ -2467,6 +2466,7 @@ asymmetric,22
 autonomous vehicle,22
 begin,22
 bound,22
+calibrated,22
 classic,22
 click,22
 comparing,22
@@ -2481,7 +2481,6 @@ dealing,22
 deep learning-based,22
 defined,22
 despite significant,22
-dg,22
 dino,22
 domain-invariant,22
 downstream application,22
@@ -2518,6 +2517,7 @@ mostly,22
 multiple benchmark,22
 norm,22
 others,22
+par,22
 performance various,22
 post-training,22
 predictor,22
@@ -2569,7 +2569,6 @@ assist,21
 assume,21
 attributed,21
 autoregressive,21
-av,21
 available 3d,21
 averaging,21
 baseline method,21
@@ -2577,7 +2576,6 @@ believe,21
 benchmark datasets demonstrate,21
 blurred,21
 bundle,21
-calibrated,21
 category discovery,21
 challenging benchmark,21
 clue,21
@@ -2601,6 +2599,7 @@ existing datasets,21
 experiment show method,21
 faithful,21
 family,21
+figure,21
 finetuning,21
 fusing,21
 gait recognition,21
@@ -2690,6 +2689,7 @@ contrastive loss,20
 corrupted,20
 crucial role,20
 data collection,20
+dg,20
 differential,20
 distilled,20
 due high,20
@@ -2701,7 +2701,6 @@ extreme,20
 fact,20
 fails,20
 feature aggregation,20
-figure,20
 follow,20
 former,20
 foundational,20
@@ -2725,6 +2724,7 @@ increased,20
 increasing attention,20
 indicating,20
 instruction tuning,20
+intelligence,20
 interference,20
 issue propose novel,20
 key component,20
@@ -2839,7 +2839,6 @@ hsi,19
 ignoring,19
 image datasets,19
 inductive bias,19
-intelligence,19
 intersection,19
 inverse rendering,19
 investigation,19
@@ -2876,6 +2875,7 @@ propose first,19
 propose simple yet,19
 psnr,19
 query image,19
+re-identification,19
 received,19
 refer,19
 remaining,19
@@ -2913,7 +2913,6 @@ vision foundation model,19
 visual input,19
 visual-language,19
 vsr,19
-w,19
 wavelet,19
 whereas,19
 within image,19
@@ -2930,6 +2929,7 @@ appealing,18
 artificial,18
 asynchronous,18
 augmenting,18
+av,18
 available present,18
 available project,18
 avenue,18
@@ -3035,6 +3035,7 @@ panorama,18
 paper aim,18
 participant,18
 patient,18
+photon,18
 placement,18
 positive negative,18
 prevailing,18
@@ -3044,7 +3045,6 @@ protection,18
 purely,18
 question-answering,18
 rationale,18
-re-identification,18
 reasonable,18
 regular,18
 regularize,18
@@ -3168,7 +3168,6 @@ part-based,17
 pascal voc,17
 pedestrian,17
 performance gap,17
-photon,17
 physic,17
 physically,17
 point cloud completion,17
@@ -3215,6 +3214,7 @@ timestep,17
 traditional method,17
 trend,17
 triplane,17
+unseen domain,17
 unseen object,17
 v2,17
 vae,17
@@ -3248,6 +3248,7 @@ comprehensive experiment demonstrate,16
 confusion,16
 controller,16
 corruption,16
+crowd counting,16
 da,16
 dataset show,16
 datasets different,16
@@ -3270,7 +3271,6 @@ enhance performance,16
 equivariant,16
 existing model,16
 existing technique,16
-f,16
 feasible,16
 feature 3d,16
 field nerfs,16
@@ -3333,7 +3333,6 @@ per-pixel,16
 performance code,16
 performance however,16
 point-wise,16
-posse,16
 post-training quantization,16
 pre-trained vision-language model,16
 pretext,16
@@ -3375,7 +3374,6 @@ turbulence,16
 unauthorized,16
 uncover,16
 unify,16
-unseen domain,16
 validate method,16
 various scenario,16
 vlp,16
@@ -3416,7 +3414,6 @@ concretely,15
 conditional diffusion,15
 constrain,15
 control signal,15
-crowd counting,15
 day,15
 definition,15
 delivers,15
@@ -3477,6 +3474,7 @@ inspection,15
 intelligent,15
 iqa,15
 irregular,15
+irrelevant,15
 issue present,15
 keypoint detection,15
 kinematic,15
@@ -3699,7 +3697,6 @@ information image,14
 infrared image,14
 inter-class,14
 invisible,14
-irrelevant,14
 landscape,14
 large amount,14
 large-scale 3d,14
@@ -3900,6 +3897,7 @@ experimental evaluation,13
 exploited,13
 extensive experiment across,13
 extensive experiment various,13
+f,13
 failing,13
 fed,13
 few-shot learning,13
@@ -4027,6 +4025,7 @@ result three,13
 scanpath,13
 scenario code,13
 self-supervised method,13
+semantic alignment,13
 semantic image,13
 semantic space,13
 show method outperforms,13
@@ -4210,6 +4209,7 @@ fixation,12
 formidable challenge,12
 fourier,12
 gaussian representation,12
+generality,12
 generating realistic,12
 generation approach,12
 generation editing,12
@@ -4313,6 +4313,7 @@ patch-level,12
 per-frame,12
 performance model,12
 performance proposed,12
+person re-identification,12
 place recognition,12
 planar,12
 pre-defined,12
@@ -4358,7 +4359,6 @@ seamlessly integrated,12
 secure,12
 segment object,12
 self-attention mechanism,12
-semantic alignment,12
 semantic understanding,12
 sfod,12
 show outperforms,12
@@ -4495,6 +4495,7 @@ contributes,11
 conversion,11
 correlate,11
 cost-effective,11
+counter,11
 data across,11
 data address,11
 data extensive,11
@@ -4506,7 +4507,6 @@ demanding,11
 dense captioning,11
 designer,11
 disagreement,11
-discus,11
 distant,11
 distorted,11
 drift,11
@@ -4546,7 +4546,6 @@ fraction,11
 framework enables,11
 framework specifically,11
 fundamentally,11
-generality,11
 generate 3d,11
 generated data,11
 generating 3d,11
@@ -4668,7 +4667,6 @@ performance across various,11
 performance address,11
 performance drop,11
 performance previous,11
-person re-identification,11
 personalized image,11
 photograph,11
 photography,11
@@ -4678,6 +4676,7 @@ plug-in,11
 point cloud sequence,11
 point set,11
 population,11
+possess,11
 pre-trained model available,11
 pre-training method,11
 present novel approach,11
@@ -4895,7 +4894,6 @@ coordinate system,10
 copyright,10
 corner,10
 correctness,10
-counter,10
 cut,10
 cv,10
 cycle,10
@@ -4927,6 +4925,7 @@ diffusion inversion,10
 diffusion model ha,10
 diffusion model ’,10
 dilemma,10
+discus,10
 distillation kd,10
 distractors,10
 divergence,10
@@ -5231,6 +5230,7 @@ temporal context,10
 temporal localization,10
 text embedding,10
 text modality,10
+text representation,10
 text-to-image generative model,10
 three different,10
 three public,10
@@ -5286,6 +5286,7 @@ vlp model,10
 vqa model,10
 walk,10
 white-box,10
+wsss,10
 yet effective approach,10
 ’ attention,10
 ’ output,10
@@ -5316,6 +5317,7 @@ accuracy robustness,9
 achievement,9
 across domain,9
 across variety,9
+across various datasets,9
 action quality,9
 action representation,9
 activation map,9
@@ -5323,6 +5325,7 @@ activity recognition,9
 additionally design,9
 address challenging,9
 addressing issue,9
+adjusted,9
 adversarial network gans,9
 adversarial prompt,9
 adversarially,9
@@ -5580,7 +5583,6 @@ ir,9
 jpeg,9
 kd method,9
 key contribution,9
-l,9
 labelled,9
 laborious,9
 language model mllm,9
@@ -5866,7 +5868,6 @@ tampering,9
 temperature,9
 temporal action localization,9
 temporal feature,9
-text representation,9
 text-to-image synthesis,9
 text-to-image t2i diffusion,9
 text-to-image t2i model,9
@@ -5951,7 +5952,6 @@ achieves remarkable,8
 achieves sota performance,8
 across different datasets,8
 across multiple benchmark,8
-across various datasets,8
 across various domain,8
 across view,8
 across wide range,8
@@ -5963,7 +5963,6 @@ addressing challenge,8
 adept,8
 adeptly,8
 adhering,8
-adjusted,8
 advent,8
 adversarial sample,8
 adversary,8
@@ -6466,7 +6465,6 @@ ordinal,8
 outperforms current state-of-the-art,8
 outperforms recent,8
 outperforms sota method,8
-ov,8
 pac,8
 paper contains,8
 paper explores,8
@@ -6822,7 +6820,7 @@ approach project,7
 approach show,7
 arbitrary number,7
 artistic style,7
-ass performance,7
+assess performance,7
 attack success,7
 attack success rate,7
 attain,7
@@ -6835,6 +6833,7 @@ auto-regressive,7
 autodir,7
 available diffusion,7
 available diffusion model,7
+available image,7
 available multimodal,7
 available paper present,7
 available recently,7
@@ -6880,6 +6879,7 @@ claim,7
 class-wise,7
 classification object,7
 cleo,7
+clothes,7
 cluster assignment,7
 cmd,7
 coco dataset,7
@@ -6982,6 +6982,7 @@ deploy,7
 depth prior,7
 described,7
 design choice,7
+design decision,7
 desmoking,7
 desnowing,7
 detection approach,7
@@ -7273,6 +7274,7 @@ key design,7
 keypoint-based,7
 knowledge first work,7
 knowledge source,7
+l,7
 l2,7
 label-efficient,7
 labeled source,7
@@ -7556,6 +7558,7 @@ real-world synthetic,7
 recent success,7
 recently 3d gaussian,7
 reconstruction 3d,7
+reconstruction framework,7
 reconstruction generation,7
 reconstruction process,7
 reduce number,7
@@ -7938,6 +7941,7 @@ ar,6
 arbitrary topology,6
 architecture design,6
 artistic text,6
+assesses,6
 assumed,6
 atmospheric turbulence,6
 atomic action,6
@@ -7949,7 +7953,6 @@ autoeval-video,6
 automating,6
 automation,6
 autonomous driving system,6
-available image,6
 available point,6
 available point cloud,6
 available real-world,6
@@ -8023,7 +8026,6 @@ classification object detection,6
 classification semantic,6
 classification semantic segmentation,6
 closed,6
-clothes,6
 cloud density,6
 cluster discrimination,6
 cnn-based,6
@@ -8160,7 +8162,6 @@ depicted,6
 depth network,6
 depth-guided,6
 deriving,6
-design decision,6
 design first,6
 designed enhance,6
 designed evaluate,6
@@ -8175,6 +8176,7 @@ detection leveraging,6
 determines,6
 develops,6
 diffender,6
+different category,6
 different region,6
 different setting,6
 different video,6
@@ -8864,6 +8866,7 @@ organize,6
 oriented object,6
 original dataset,6
 outperformed,6
+ov,6
 overly,6
 pair image,6
 paired training,6
@@ -9016,7 +9019,6 @@ recently neural,6
 recently shown,6
 recognition however,6
 reconstruct 3d,6
-reconstruction framework,6
 reconstruction ha,6
 reconstruction however,6
 reconstruction-based,6
@@ -9247,6 +9249,7 @@ surpasses existing method,6
 surpasses state-of-the-art method,6
 surpassing previous,6
 swap,6
+swin,6
 synchronous,6
 synonymous,6
 synthesis ha,6
@@ -9367,9 +9370,11 @@ visual odometry,6
 visual relationship,6
 visual tracking,6
 visually appealing,6
+visuals,6
 vital role,6
 vllms,6
 vln,6
+w,6
 wall,6
 watermarking framework,6
 wavelength,6

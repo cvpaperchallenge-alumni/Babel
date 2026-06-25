@@ -99,9 +99,9 @@ def validate_conference(conference: str, year: int) -> str:
         str: The unique conference name with year.
     """
     if conference == "cvpr":
-        if year not in range(2013, 2026):
+        if year not in range(2013, 2027):
             raise ValueError(
-                "CVPR conference is held from 2013 to 2025. \
+                "CVPR conference is held from 2013 to 2026. \
                 Please specify the year in the range."
             )
         return f"CVPR{year}"

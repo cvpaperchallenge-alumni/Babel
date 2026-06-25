@@ -20812,9 +20812,6 @@ ldp language-driven dual-pixel,1
 ldr,1
 ldr multi-view,1
 ldr multi-view image,1
-le,1
-le attention,1
-le attention stage,1
 lead exploring,1
 lead exploring logit,1
 lead learning,1
@@ -21524,6 +21521,9 @@ leod label-efficient object,1
 lesion,1
 lesion segmentation,1
 lesion segmentation via,1
+less,1
+less attention,1
+less attention stage,1
 let 's,1
 let 's think,1
 let intelligent,1
@@ -23257,7 +23257,7 @@ mixture controller timechat,1
 mixture democaricature,1
 mixture democaricature democratising,1
 mixture need,1
-mixture need le,1
+mixture need less,1
 mixture without,1
 mixture without prior,1
 mixture-of-experts,1
@@ -25350,8 +25350,8 @@ need high-fidelity,1
 need high-fidelity text-to-image,1
 need large-scale,1
 need large-scale visual,1
-need le,1
-need le attention,1
+need less,1
+need less attention,1
 need memory-efficient,1
 need memory-efficient image,1
 need open-loop,1

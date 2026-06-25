@@ -2025,7 +2025,6 @@ large-scale visual,2
 latency,2
 latent diffusion model,2
 layer-adaptive,2
-le,2
 leaf,2
 learning cross-modal,2
 learning deep,2
@@ -2058,6 +2057,7 @@ learning vision-language,2
 learning weakly,2
 learning weakly supervised,2
 learning weakly-supervised,2
+less,2
 level set,2
 lidar segmentation,2
 lidar-based,2
@@ -12259,8 +12259,8 @@ forgery,1
 forgery detection,1
 forgery detection calibrating,1
 forget,1
-forget le,1
-forget le efficient,1
+forget less,1
+forget less efficient,1
 forgetting asm,1
 forgetting asm adaptive,1
 forgetting catastrophe,1
@@ -12795,7 +12795,7 @@ generalization-reinforced semi-supervised,1
 generalization-reinforced semi-supervised learning,1
 generalize,1
 generalize forget,1
-generalize forget le,1
+generalize forget less,1
 generalized curriculum,1
 generalized curriculum learning,1
 generalized decision-making,1
@@ -16238,10 +16238,6 @@ ldp-feat image feature,1
 ldr,1
 ldr image,1
 ldr image wild,1
-le efficient,1
-le efficient decision-based,1
-le focus,1
-le focus attention,1
 lea2,1
 lea2 lightweight,1
 lea2 lightweight ensemble,1
@@ -16952,6 +16948,10 @@ lens potential energy,1
 lerf,1
 lerf language,1
 lerf language embedded,1
+less efficient,1
+less efficient decision-based,1
+less focus,1
+less focus attention,1
 let,1
 let 's,1
 let 's talk,1
@@ -21469,7 +21469,7 @@ person re-identification agile,1
 person re-identification benchmark,1
 person re-identification dlt,1
 person re-identification joint-relation,1
-person re-identification le,1
+person re-identification less,1
 person re-identification physdiff,1
 person re-identification sample-wise,1
 person re-identification semantics,1
@@ -23189,8 +23189,8 @@ re-identification dlt,1
 re-identification dlt conditioned,1
 re-identification joint-relation,1
 re-identification joint-relation transformer,1
-re-identification le,1
-re-identification le focus,1
+re-identification less,1
+re-identification less focus,1
 re-identification physdiff,1
 re-identification physdiff physics-guided,1
 re-identification sample-wise,1

@@ -973,6 +973,7 @@ weakly,4
 word,4
 work,4
 zero-sum game,4
+–,4
 -equivariant,3
 3d human,3
 3d object,3
@@ -1942,7 +1943,6 @@ latent dynamic,2
 latent state,2
 law,2
 layer-wise,2
-le,2
 learnability,2
 learnable,2
 learning 3d pose,2
@@ -1998,6 +1998,7 @@ learning theory,2
 learning transferable,2
 learning user-level,2
 learning via local,2
+less,2
 lighting,2
 like,2
 limitation,2
@@ -2624,7 +2625,6 @@ world model,2
 worst,2
 worth,2
 zeroth-order,2
-–,2
 're,1
 're unsure,1
 're unsure framework,1
@@ -3089,7 +3089,7 @@ adaptive attack adversarial,1
 adaptive batching,1
 adaptive batching large,1
 adaptive clipping,1
-adaptive clipping le,1
+adaptive clipping less,1
 adaptive conformal,1
 adaptive conformal inference,1
 adaptive data,1
@@ -6189,8 +6189,8 @@ clip-it,1
 clip-it language-guided,1
 clip-it language-guided video,1
 clipping,1
-clipping le,1
-clipping le increasing-to-balancing,1
+clipping less,1
+clipping less increasing-to-balancing,1
 clockwork,1
 clockwork variational,1
 clockwork variational autoencoders,1
@@ -8850,8 +8850,8 @@ deviation explored,1
 deviation explored region,1
 deviation optimal,1
 deviation optimal risk,1
-device irm—when,1
-device irm—when work,1
+device irm,1
+device irm —,1
 device unavailability,1
 device unavailability structure,1
 dgcnn,1
@@ -9082,7 +9082,7 @@ diplomacy scratch remember,1
 direct feedback,1
 direct feedback alignment,1
 direct matching,1
-direct matching fokker–planck–kolmogorov,1
+direct matching fokker,1
 direct multi-view,1
 direct multi-view multi-person,1
 direct pose-level,1
@@ -11879,9 +11879,9 @@ fmri study global,1
 focal,1
 focal attention,1
 focal attention long-range,1
-fokker–planck–kolmogorov,1
-fokker–planck–kolmogorov equation,1
-fokker–planck–kolmogorov equation complexity,1
+fokker,1
+fokker –,1
+fokker – planck,1
 follower,1
 follower beyond,1
 follower beyond multi-facet,1
@@ -12141,7 +12141,7 @@ function imbalanced data,1
 function induce,1
 function induce stationarity,1
 function lead,1
-function lead le,1
+function lead less,1
 function learning bayesian,1
 function learning hard,1
 function minimization cardinality-based,1
@@ -14880,9 +14880,9 @@ invex relaxation combinatorial,1
 iq-learn,1
 iq-learn inverse,1
 iq-learn inverse soft-q,1
-irm—when,1
-irm—when work,1
-irm—when work doe,1
+irm,1
+irm —,1
+irm — work,1
 irregular,1
 irregular distribution,1
 irregular distribution shift,1
@@ -15156,6 +15156,9 @@ knowledge-inspired 3d scene,1
 known,1
 known novel,1
 known novel mechanism,1
+kolmogorov,1
+kolmogorov equation,1
+kolmogorov equation complexity,1
 ks-gnn,1
 ks-gnn keywords,1
 ks-gnn keywords search,1
@@ -15466,20 +15469,16 @@ layer-wise fine-grained n,1
 lazy,1
 lazy online,1
 lazy online subgradient,1
-le increasing-to-balancing,1
-le increasing-to-balancing label,1
-le transferable,1
-le transferable feature,1
 lead discovery,1
 lead discovery explorative,1
 lead follows,1
 lead follows strategic,1
 lead interpolation,1
 lead interpolation instance-dependent,1
-lead le,1
-lead le transferable,1
 lead learning,1
 lead learning dynamical,1
+lead less,1
+lead less transferable,1
 leadcache,1
 leadcache regret-optimal,1
 leadcache regret-optimal caching,1
@@ -16581,6 +16580,10 @@ lens multi-task,1
 lens multi-task learning,1
 lens unified,1
 lens unified view,1
+less increasing-to-balancing,1
+less increasing-to-balancing label,1
+less transferable,1
+less transferable feature,1
 level-set,1
 level-set approach,1
 level-set approach roto-translated,1
@@ -17380,8 +17383,8 @@ matching desired,1
 matching desired causal,1
 matching doubt,1
 matching doubt neural,1
-matching fokker–planck–kolmogorov,1
-matching fokker–planck–kolmogorov equation,1
+matching fokker,1
+matching fokker –,1
 matching key,1
 matching key query,1
 matching learning,1
@@ -22011,6 +22014,9 @@ placement routing chip,1
 plan-conditioned,1
 plan-conditioned policy,1
 plan-conditioned policy robotics,1
+planck,1
+planck –,1
+planck – kolmogorov,1
 plane beyond,1
 plane beyond iq-learn,1
 plane privately,1
@@ -30055,7 +30061,7 @@ unpaired virtual,1
 unpaired virtual try-on,1
 unreliable,1
 unreliable device,1
-unreliable device irm—when,1
+unreliable device irm,1
 unscrambler,1
 unscrambler inverse,1
 unscrambler inverse problem,1
@@ -31391,10 +31397,17 @@ zoo checkpoint unseen,1
 zoology,1
 zoology neural,1
 zoology neural taskonomy,1
+– kolmogorov,1
+– kolmogorov equation,1
+– planck,1
+– planck –,1
 – randomized,1
 – randomized douglas-rachford,1
 – simplified,1
 – simplified strengthened,1
+—,1
+— work,1
+— work doe,1
 ’ approach,1
 ’ approach self-supervised,1
 ’ backpropagation,1

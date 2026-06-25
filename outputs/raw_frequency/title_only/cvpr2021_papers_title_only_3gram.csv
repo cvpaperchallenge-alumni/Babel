@@ -11635,9 +11635,6 @@ layoutgmn neural graph,1
 layouttransformer,1
 layouttransformer scene,1
 layouttransformer scene layout,1
-le,1
-le clipbert,1
-le clipbert video-and-language,1
 leakage,1
 leakage federated,1
 leakage federated learning,1
@@ -12274,6 +12271,9 @@ lesion tracker monitoring,1
 lesion-aware,1
 lesion-aware transformer,1
 lesion-aware transformer diabetic,1
+less,1
+less clipbert,1
+less clipbert video-and-language,1
 level affinity-based,1
 level affinity-based transfer,1
 level detail,1
@@ -15533,8 +15533,8 @@ perspective crop,1
 perspective crop layer,1
 perspective deep,1
 perspective deep occlusion-aware,1
-perspective le,1
-perspective le clipbert,1
+perspective less,1
+perspective less clipbert,1
 perspective model,1
 perspective model interpretation,1
 perspective transformer,1
@@ -21873,7 +21873,7 @@ unified monocular depth,1
 unified network,1
 unified network pruning,1
 unified perspective,1
-unified perspective le,1
+unified perspective less,1
 unified surgical,1
 unified surgical skill,1
 uniform,1

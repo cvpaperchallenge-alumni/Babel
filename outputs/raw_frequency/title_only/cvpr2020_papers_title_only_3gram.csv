@@ -2774,9 +2774,9 @@ aslfeat learning local,1
 aspect,1
 aspect ratio,1
 aspect ratio requirement,1
-ass,1
-ass image,1
-ass image quality,1
+assess,1
+assess image,1
+assess image quality,1
 assessing eye,1
 assessing eye aesthetic,1
 assessing image,1
@@ -3180,7 +3180,7 @@ backpropagating pnp optimization,1
 backpropagating refinement,1
 backpropagating refinement interactive,1
 backpropagation blindly,1
-backpropagation blindly ass,1
+backpropagation blindly assess,1
 backpropagation saliency,1
 backpropagation saliency method,1
 backward,1
@@ -3491,8 +3491,8 @@ blinding,1
 blinding tracker,1
 blinding tracker imperceptible,1
 blindly,1
-blindly ass,1
-blindly ass image,1
+blindly assess,1
+blindly assess image,1
 block-coordinate,1
 block-coordinate descent,1
 block-coordinate descent controllable,1
@@ -10381,9 +10381,6 @@ layout ser-fiq,1
 layout ser-fiq unsupervised,1
 layout video,1
 layout video whole,1
-le,1
-le on-the-fly,1
-le on-the-fly fine-grained,1
 lead,1
 lead improved,1
 lead improved mobilenets,1
@@ -10961,6 +10958,9 @@ length handwritten text,1
 lesion,1
 lesion segmentation,1
 lesion segmentation learning,1
+less,1
+less on-the-fly,1
+less on-the-fly fine-grained,1
 leveraging 2d,1
 leveraging 2d data,1
 leveraging class,1
@@ -15171,7 +15171,7 @@ recognition siamcar siamese,1
 recognition sideways,1
 recognition sideways depth-parallel,1
 recognition sketch,1
-recognition sketch le,1
+recognition sketch less,1
 recognition sparse,1
 recognition sparse resultant,1
 recognition spatial-temporal,1
@@ -17460,8 +17460,8 @@ sketch gestalt,1
 sketch gestalt decoupled,1
 sketch image,1
 sketch image colorization,1
-sketch le,1
-sketch le on-the-fly,1
+sketch less,1
+sketch less on-the-fly,1
 sketch optimizing,1
 sketch optimizing rank-based,1
 sketch-aware,1

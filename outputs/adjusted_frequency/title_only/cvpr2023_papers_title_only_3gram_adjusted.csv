@@ -166,7 +166,6 @@ mesh,18
 open-vocabulary,18
 quantization,18
 rethinking,18
-style,18
 text-to-image,18
 2d,17
 completion,17
@@ -176,6 +175,7 @@ image segmentation,17
 inverse,17
 lidar,17
 structure,17
+style,17
 uncertainty,17
 view synthesis,17
 weakly-supervised,17
