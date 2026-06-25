@@ -8,7 +8,7 @@ import logging
 import pathlib
 from typing import Final, Iterable
 
-from src import cvf, cvf_ws, eccv, icml, neurips
+from src import cvf, cvf_ws, eccv, icml_neurips, neurips
 from src.utils import serialize_for_json_dump
 
 logger: Final = logging.getLogger(__name__)
@@ -49,8 +49,8 @@ def scrape_conference_page(
         papers = neurips.get_papers(conference=conference, year=year)
     elif conference == "cvprw":
         papers = cvf_ws.get_papers(conference=conference, year=year)
-    elif conference == "icml":
-        papers = icml.get_papers(conference=conference, year=year)
+    elif conference in ["icml", "neurips_openreview"]:
+        papers = icml_neurips.get_papers(conference=conference, year=year)
     else:
         raise ValueError(f"Conference {conference} is not supported.")
 
@@ -74,7 +74,15 @@ if __name__ == "__main__":
     parser.add_argument(
         "--conference",
         "-c",
-        choices=["cvpr", "iccv", "eccv", "neurips", "cvprw", "icml"],
+        choices=[
+            "cvpr",
+            "iccv",
+            "eccv",
+            "neurips",
+            "cvprw",
+            "icml",
+            "neurips_openreview",
+        ],
         type=str,
         required=True,
         help="Conference name where papers information is extracted.",
