@@ -1,34 +1,34 @@
 .PHONY: ruff-format
 ruff-format:
-	poetry run ruff format src tests
+	uv run ruff format src tests
 
 .PHONY: ruff-format-check
 ruff-format-check:
-	poetry run ruff format --check src tests
+	uv run ruff format --check src tests
 
 .PHONY: ruff-lint
 ruff-lint:
-	poetry run ruff check src tests --fix
+	uv run ruff check src tests --fix
 
 .PHONY: ruff-lint-check
 ruff-lint-check:
-	poetry run ruff check src tests
+	uv run ruff check src tests
 
 .PHONY: mdformat
 mdformat:
-	poetry run mdformat *.md
+	uv run mdformat *.md
 
 .PHONY: mdformat-check
 mdformat-check:
-	poetry run mdformat --check *.md
+	uv run mdformat --check *.md
 
 .PHONY: mypy
 mypy:
-	poetry run mypy src
+	uv run mypy src
 
 .PHONY: test
 test:
-	poetry run pytest tests --cov=src --cov-report term-missing --durations 5
+	uv run pytest tests --cov=src --cov-report term-missing --durations 5
 
 .PHONY: format
 format:
