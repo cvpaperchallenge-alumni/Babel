@@ -1,0 +1,6 @@
+[settings]
+lockfile = true
+
+[tools]
+python = "3.12"
+poetry = "2.4.1"
