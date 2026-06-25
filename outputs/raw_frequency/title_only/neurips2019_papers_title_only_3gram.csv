@@ -2581,9 +2581,9 @@ ask ai ai,1
 aspect,1
 aspect ratio,1
 aspect ratio dm2c,1
-ass,1
-ass program,1
-ass program synthesis,1
+assess,1
+assess program,1
+assess program synthesis,1
 assessing disparate,1
 assessing disparate impact,1
 assessing generative,1
@@ -6625,8 +6625,8 @@ example polynomial optimization,1
 example region-specific,1
 example region-specific diffeomorphic,1
 execute,1
-execute ass,1
-execute ass program,1
+execute assess,1
+execute assess program,1
 exist,1
 exist rethinking,1
 exist rethinking binarized,1
@@ -9467,9 +9467,6 @@ lca loss change,1
 lda,1
 lda streaming,1
 lda streaming bayesian,1
-le,1
-le learning,1
-le learning efficient,1
 leader,1
 leader stochastic,1
 leader stochastic gradient,1
@@ -9753,8 +9750,6 @@ learning large-scale,1
 learning large-scale high-dimensional,1
 learning latent,1
 learning latent process,1
-learning le,1
-learning le learning,1
 learning learn,1
 learning learn self-critique,1
 learning learning conditional,1
@@ -9765,6 +9760,8 @@ learning learning multiple,1
 learning learning over-parameterized,1
 learning learning representation,1
 learning learning robust,1
+learning less,1
+learning less learning,1
 learning library,1
 learning library learning,1
 learning linear,1
@@ -10119,6 +10116,9 @@ lens characterization,1
 lens characterization learning,1
 lens pattern,1
 lens pattern formation,1
+less,1
+less learning,1
+less learning efficient,1
 level backpropagation,1
 level backpropagation training,1
 level set dimensionality,1
@@ -14988,7 +14988,7 @@ reinforcement learning ha,1
 reinforcement learning high-dimensional,1
 reinforcement learning interaction,1
 reinforcement learning kernel,1
-reinforcement learning le,1
+reinforcement learning less,1
 reinforcement learning marginalized,1
 reinforcement learning meta,1
 reinforcement learning minimal,1
@@ -18964,7 +18964,7 @@ worst-case transformation,1
 worst-case transformation suffices,1
 write,1
 write execute,1
-write execute ass,1
+write execute assess,1
 x-armed,1
 x-armed bandit,1
 x-armed bandit modelling,1

@@ -4,7 +4,7 @@ image,3329
 learning,2065
 propose,1940
 feature,1835
-3d,1830
+3d,1823
 object,1737
 performance,1546
 data,1531
@@ -272,10 +272,10 @@ constraint,197
 gradient,197
 retrieval,197
 test,196
-style,194
 small,193
 addition,192
 example,192
+style,192
 geometric,191
 backbone,189
 lead,189
@@ -434,7 +434,6 @@ encoding,133
 real-time,133
 relation,133
 similar,133
-le,132
 noisy,132
 efficiently,131
 jointly,131
@@ -449,6 +448,7 @@ resulting,130
 stereo,130
 vision-language,130
 generating,129
+less,129
 like,129
 suffer,129
 work propose,129
@@ -1586,7 +1586,6 @@ unsupervised domain adaptation,36
 vehicle,36
 video representation,36
 visual recognition,36
-3d model,35
 adopted,35
 affinity,35
 angle,35
@@ -1633,6 +1632,7 @@ surprisingly,35
 transport,35
 unbiased,35
 video-language,35
+3d model,34
 albedo,34
 assessment,34
 available paper,34
@@ -2166,7 +2166,6 @@ test set,25
 text description,25
 trajectory prediction,25
 tremendous,25
-v,25
 vos,25
 360deg,24
 adjust,24
@@ -2256,7 +2255,6 @@ train model,24
 training inference,24
 updating,24
 validate effectiveness,24
-w,24
 abstract,23
 achieve state-of-the-art performance,23
 achieves state-of-the-art result,23
@@ -2312,7 +2310,6 @@ pool,23
 prompt tuning,23
 protection,23
 prototypical,23
-r,23
 regarding,23
 replay,23
 representation space,23
@@ -2438,7 +2435,7 @@ aid,21
 almost,21
 already,21
 annotate,21
-ass,21
+assess,21
 attention-based,21
 bayesian,21
 benchmark including,21
@@ -2626,6 +2623,7 @@ propose first,20
 quadratic,20
 qualitatively quantitatively,20
 quality assessment,20
+r,20
 rare,20
 raw image,20
 reasonable,20
@@ -3130,7 +3128,6 @@ facilitating,16
 first introduce,16
 follows,16
 fsl,16
-g,16
 gaussian distribution,16
 gender,16
 general-purpose,16
@@ -3232,6 +3229,7 @@ tumor,16
 unifying,16
 unsupervised learning,16
 upper,16
+v,16
 vast,16
 verification,16
 video anomaly,16
@@ -3313,7 +3311,6 @@ euclidean,15
 existence,15
 existing deep,15
 extensive ablation,15
-f,15
 face generation,15
 face model,15
 faithfully,15
@@ -3460,6 +3457,7 @@ whistle,15
 wire,15
 work well,15
 worst-case,15
+wsss,15
 zero,15
 3d data,14
 3d lane,14
@@ -4136,7 +4134,6 @@ model still,12
 model visual,12
 multi-modality,12
 multiple image,12
-mv,12
 network however,12
 network training,12
 neural volumetric,12
@@ -4761,6 +4758,7 @@ experiment show approach,10
 exposure time,10
 extensive ablation study,10
 extensive experiment verify,10
+f,10
 fake image,10
 feature enhancement,10
 feature grid,10
@@ -4828,7 +4826,6 @@ itw,10
 knowledge distillation framework,10
 knowledge distillation method,10
 known unknown,10
-l,10
 l2,10
 label noise,10
 label space,10
@@ -4839,12 +4836,12 @@ language-driven,10
 large scene,10
 large-scale model,10
 latents,10
-le training,10
 learned model,10
 learning cl,10
 learning however,10
 learning neural,10
 learning semantic,10
+less training,10
 long-range dependency,10
 low latency,10
 magnitude faster,10
@@ -4882,6 +4879,7 @@ module designed,10
 monocular depth estimation,10
 monocular rgb,10
 motion estimation,10
+mv,10
 n,10
 needing,10
 network ha,10
@@ -4971,7 +4969,6 @@ scene depth,10
 scene method,10
 scene paper,10
 seeking,10
-segmentation 3d,10
 selectively,10
 semantic consistency,10
 semantic correlation,10
@@ -5069,7 +5066,6 @@ zero-shot recognition,10
 3d consistency,9
 3d dense,9
 3d environment,9
-3d modeling,9
 3d prior,9
 3d shape reconstruction,9
 accessing,9
@@ -5270,6 +5266,7 @@ fully utilize,9
 function sdf,9
 functional map,9
 functionality,9
+g,9
 gap propose,9
 generalisation,9
 generalization dg,9
@@ -5535,6 +5532,7 @@ satellite,9
 scanobjectnn,9
 search region,9
 security image,9
+segmentation 3d,9
 segmentation approach,9
 self-attention layer,9
 self-supervised learning ssl,9
@@ -5640,6 +5638,8 @@ visual token,9
 voxel-based,9
 vq-vae,9
 vs.,9
+vss,9
+w,9
 weakly supervised semantic,9
 well-aligned,9
 white-box,9
@@ -5652,6 +5652,7 @@ zero-shot transfer,9
 3d coordinate,8
 3d face reconstruction,8
 3d gan inversion,8
+3d modeling,8
 3d perception,8
 3d position,8
 3d-consistent,8
@@ -5849,7 +5850,6 @@ evaluation demonstrate,8
 evaluator,8
 exactly,8
 examine,8
-existing 3d,8
 existing method mainly,8
 existing method rely,8
 expanded,8
@@ -5995,6 +5995,7 @@ keypoint detection,8
 knowledge model,8
 knowledge pre-trained,8
 knowledge-guided,8
+l,8
 label generated,8
 label map,8
 label propagation,8
@@ -6095,7 +6096,7 @@ modulated,8
 module effectively,8
 mpi,8
 much attention,8
-much le,8
+much less,8
 multi-instance,8
 multi-layer perceptron,8
 multi-view 3d object,8
@@ -6413,6 +6414,7 @@ zero-shot performance,8
 3d-aware image,7
 3d-language,7
 3dpw,7
+3dss,7
 4k,7
 6d pose,7
 ac,7
@@ -6694,6 +6696,7 @@ evaluate proposed method,7
 evolutionary,7
 excessively,7
 execution,7
+existing 3d,7
 existing method either,7
 existing study,7
 existing video,7
@@ -6797,6 +6800,7 @@ graphical model,7
 grasp pose,7
 grouped,7
 growth,7
+gss,7
 gst,7
 guided diffusion model,7
 ha potential,7
@@ -6916,7 +6920,6 @@ large-scale 3d,7
 large-scale unlabeled,7
 large-scale vision,7
 later stage,7
-le effective,7
 learn effective,7
 learn representation,7
 learn semantic,7
@@ -6930,6 +6933,7 @@ learning novel,7
 learning object,7
 learning point,7
 learning propose,7
+less effective,7
 leverage pre-trained,7
 lifelong,7
 limit application,7
@@ -7820,7 +7824,6 @@ discrete representation,6
 discriminability,6
 discriminating,6
 discriminative region,6
-discus,6
 disease,6
 disentangled representation,6
 disjoint,6
@@ -8165,7 +8168,6 @@ latent flow,6
 latent subspace,6
 layout-to-image,6
 layoutdm,6
-le memory,6
 learn general,6
 learn neural,6
 learning adaptive,6
@@ -8174,6 +8176,7 @@ learning few-shot,6
 learning generalizable,6
 learning implicit,6
 learning specifically,6
+less memory,6
 lfdm,6
 lidar semantic,6
 lidar semantic segmentation,6
@@ -8485,7 +8488,6 @@ pose estimate,6
 pose object,6
 pose prediction,6
 position orientation,6
-posse,6
 potential application,6
 powerful tool,6
 pr,6
@@ -8671,7 +8673,7 @@ second-order,6
 secret,6
 segmentation performance,6
 segmentation vos,6
-segmentation w,6
+segmentation wsss,6
 segmented,6
 seldom,6
 self-supervised approach,6
@@ -8681,8 +8683,7 @@ self-supervised model,6
 semantic instance,6
 semantic knowledge,6
 semantic scene graph,6
-semantic segmentation 3d,6
-semantic segmentation w,6
+semantic segmentation wsss,6
 semantic token,6
 semantic-visual,6
 sentiment,6

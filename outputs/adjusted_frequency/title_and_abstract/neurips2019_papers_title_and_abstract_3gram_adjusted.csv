@@ -1,5 +1,5 @@
 word,count
-model,1955
+model,1956
 learning,1760
 network,1445
 algorithm,1389
@@ -11,7 +11,7 @@ result,663
 propose,659
 training,640
 neural network,603
-distribution,562
+distribution,563
 performance,562
 deep,553
 paper,539
@@ -60,8 +60,8 @@ efficient,284
 rate,280
 machine,274
 use,273
+generative,271
 convergence,270
-generative,270
 error,269
 prediction,266
 case,264
@@ -75,8 +75,8 @@ dynamic,244
 present,241
 complexity,238
 property,230
+technique,228
 reinforcement,226
-technique,226
 input,225
 agent,224
 approximation,224
@@ -101,8 +101,8 @@ machine learning,199
 several,198
 objective,196
 kernel,195
+'s,194
 trained,194
-'s,193
 consider,193
 simple,192
 solution,191
@@ -139,7 +139,7 @@ term,169
 across,168
 label,167
 noise,167
-variational,165
+variational,166
 benchmark,162
 variable,162
 bias,159
@@ -276,9 +276,9 @@ instance,101
 much,101
 recently,101
 effect,100
+i.e.,100
 selection,100
 tree,100
-i.e.,99
 recurrent,99
 strong,99
 u,99
@@ -430,6 +430,7 @@ arbitrary,70
 expected,70
 geometric,70
 learning algorithm,70
+provably,70
 ratio,70
 still,70
 ’,70
@@ -437,7 +438,6 @@ computationally,69
 investigate,69
 main,69
 perturbation,69
-provably,69
 take,69
 useful,69
 minimum,68
@@ -515,7 +515,7 @@ segmentation,60
 training data,60
 whether,60
 hypothesis,59
-le,59
+less,59
 true,59
 wasserstein,59
 arm,58
@@ -566,6 +566,7 @@ convolutional neural,54
 critical,54
 direction,54
 generalized,54
+generative adversarial,54
 joint,54
 perspective,54
 rather,54
@@ -578,7 +579,6 @@ edge,53
 estimating,53
 experience,53
 functional,53
-generative adversarial,53
 minimization,53
 phenomenon,53
 processing,53
@@ -629,10 +629,12 @@ p,50
 product,50
 recent work,50
 unlabeled,50
+usually,50
 utility,50
 allow,49
 extend,49
 finite,49
+generative adversarial network,49
 limitation,49
 mixture,49
 mnist,49
@@ -644,14 +646,12 @@ speed,49
 stability,49
 statistic,49
 transition,49
-usually,49
 x,49
 access,48
 binary,48
 bounded,48
 discriminative,48
 flexible,48
-generative adversarial network,48
 gradient-based,48
 handle,48
 implementation,48
@@ -697,6 +697,7 @@ made,45
 parallel,45
 quantization,45
 relu,45
+scaling,45
 testing,45
 adaptation,44
 al,44
@@ -715,8 +716,8 @@ modern,44
 past,44
 remains,44
 residual,44
-scaling,44
 superior,44
+tensor,44
 amount,43
 construct,43
 ensemble,43
@@ -728,7 +729,6 @@ r,43
 rely,43
 stochastic gradient descent,43
 strongly,43
-tensor,43
 trade-off,43
 uniform,43
 value function,43
@@ -798,6 +798,7 @@ progress,40
 therefore,40
 variational inference,40
 2d,39
+another,39
 comparable,39
 expectation,39
 graph neural network,39
@@ -817,6 +818,7 @@ role,39
 shift,39
 square,39
 stationary,39
+subject,39
 subspace,39
 weighted,39
 world,39
@@ -825,7 +827,6 @@ according,38
 activity,38
 algorithmic,38
 although,38
-another,38
 architecture search,38
 demonstrate effectiveness,38
 dimensional,38
@@ -842,7 +843,6 @@ network architecture,38
 presence,38
 reduces,38
 special,38
-subject,38
 successful,38
 suggest,38
 tight,38
@@ -1392,7 +1392,6 @@ decrease,22
 deep reinforcement learning,22
 definition,22
 desired,22
-discus,22
 dnn,22
 dynamically,22
 fashion,22
@@ -1445,6 +1444,7 @@ datasets demonstrate,21
 deep model,21
 defense,21
 devise,21
+discus,21
 equivalence,21
 essential,21
 forest,21
@@ -1490,6 +1490,7 @@ truth,21
 vanishing,21
 verify,21
 well-known,21
+—,21
 achieves state-of-the-art,20
 actor-critic,20
 actual,20
@@ -1992,6 +1993,7 @@ trust,15
 uniformly,15
 unsupervised learning,15
 vaes,15
+variational autoencoders,15
 viewed,15
 worse,15
 1+,14
@@ -2122,7 +2124,6 @@ thousand,14
 training sample,14
 unconstrained,14
 variational autoencoder,14
-variational autoencoders,14
 work present,14
 worst,14
 worst case,14
@@ -2135,7 +2136,6 @@ affine,13
 agnostic,13
 algorithm problem,13
 analytic,13
-ass,13
 attain,13
 automated,13
 better generalization,13
@@ -2206,6 +2206,7 @@ music,13
 neural network model,13
 neural tangent,13
 news,13
+newton,13
 np-hard,13
 ordinary differential,13
 outperforming,13
@@ -2266,6 +2267,7 @@ appears,12
 approximated,12
 approximates,12
 arising,12
+assess,12
 attains,12
 attribution,12
 au,12
@@ -2360,7 +2362,6 @@ multi-dimensional,12
 multi-modal,12
 nesterov,12
 neural activity,12
-newton,12
 number iteration,12
 observable,12
 on-policy,12
@@ -2374,7 +2375,6 @@ paper provide,12
 parameterize,12
 pareto,12
 placement,12
-posse,12
 primal,12
 problem given,12
 problem paper,12
@@ -2781,11 +2781,11 @@ optimal regret,10
 oracle complexity,10
 originally,10
 paper first,10
-par,10
 participant,10
 poly,10
 practical performance,10
 principal component analysis,10
+prior distribution,10
 problem estimating,10
 process mdps,10
 progressive,10
@@ -3044,6 +3044,7 @@ outperforms baseline,9
 output distribution,9
 paired,9
 paper address,9
+par,9
 parameterization,9
 partially observable,9
 perfect,9
@@ -3051,6 +3052,7 @@ performance paper,9
 plus,9
 pml,9
 pose estimation,9
+possess,9
 posterior inference,9
 powerful tool,9
 predefined,9
@@ -3060,7 +3062,6 @@ predictive uncertainty,9
 pretrained,9
 previous approach,9
 primary,9
-prior distribution,9
 private algorithm,9
 private learning,9
 problem also,9
@@ -3158,7 +3159,7 @@ widespread,9
 work well,9
 working,9
 z,9
-—,9
+–,9
 ‘,9
 's output,8
 1/2,8
@@ -3870,7 +3871,6 @@ method called,7
 method propose,7
 method significantly,7
 method work,7
-mi,7
 missing data,7
 mmd,7
 model approach,7
@@ -4096,7 +4096,6 @@ wishart,7
 work explore,7
 work shown,7
 λ-returns,7
-–,7
 's method,6
 's prediction,6
 -ary,6
@@ -4501,6 +4500,7 @@ method solving,6
 method standard,6
 method term,6
 metropolis-hastings,6
+mi,6
 minimax optimal,6
 mining,6
 mismatch,6
@@ -4522,7 +4522,7 @@ monte-carlo,6
 motivated recent,6
 motivation,6
 mri,6
-much le,6
+much less,6
 much smaller,6
 multi-class classification,6
 multiple datasets,6

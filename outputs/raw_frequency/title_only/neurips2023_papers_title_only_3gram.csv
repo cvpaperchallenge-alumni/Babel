@@ -143,6 +143,7 @@ scalable,27
 series,27
 time series,27
 contrastive learning,26
+multimodal,26
 pre-training,26
 spectral,26
 text-to-image,26
@@ -154,7 +155,6 @@ explanation,25
 generalized,25
 improved,25
 local,25
-multimodal,25
 object detection,25
 prior,25
 rl,25
@@ -550,6 +550,7 @@ semi-supervised learning,9
 signal,9
 solver,9
 spatio-temporal,9
+speech,9
 supervision,9
 uncovering,9
 update,9
@@ -618,7 +619,6 @@ rendering,8
 series forecasting,8
 sgd,8
 small,8
-speech,8
 statistic,8
 study,8
 symbolic,8
@@ -1201,7 +1201,6 @@ invariant learning,4
 inversion,4
 label noise,4
 language model via,4
-le,4
 leakage,4
 learnability,4
 learning adversarial,4
@@ -1213,6 +1212,7 @@ learning large-scale,4
 learning latent,4
 learning model,4
 learning optimal,4
+less,4
 level,4
 lightweight,4
 limitation,4
@@ -1598,6 +1598,7 @@ graph via,3
 graph-based,3
 grid,3
 gromov-wasserstein,3
+grounded,3
 grounding,3
 group fairness,3
 guide,3
@@ -1766,6 +1767,7 @@ neural network using,3
 neural point,3
 neuro-symbolic,3
 neuronal,3
+newton,3
 no-regret learning,3
 noise model,3
 non-convex optimization,3
@@ -2106,7 +2108,7 @@ beneficial,2
 benign overfitting,2
 best world,2
 best-of-both-worlds,2
-better le,2
+better less,2
 better private,2
 bev,2
 bias deep,2
@@ -2627,7 +2629,6 @@ graphical model,2
 graphon,2
 grasping,2
 gromov-wasserstein graph,2
-grounded,2
 group equivariant,2
 guarantee fast,2
 guided diffusion,2
@@ -3075,7 +3076,6 @@ neural surface,2
 neural surface reconstruction,2
 neurally,2
 neuron via,2
-newton,2
 nlp model,2
 no-regret learning dynamic,2
 no-regret online,2
@@ -3744,6 +3744,8 @@ zero-sum game,2
 zero-sum markov game,2
 zeroth-order method,2
 zoo,2
+–,2
+—,2
 'n,1
 'n trade,1
 'n trade foundation,1
@@ -7124,8 +7126,8 @@ better generalization,1
 better generalization feature-learning,1
 better initialization,1
 better initialization differential,1
-better le data-active,1
-better le effective,1
+better less data-active,1
+better less effective,1
 better modular,1
 better modular adaptive,1
 better one,1
@@ -10652,6 +10654,9 @@ cost-to-goal goal-conditioned predictive,1
 cost-varying,1
 cost-varying variable,1
 cost-varying variable subset,1
+cote,1
+cote graph,1
+cote graph neural,1
 count privacy,1
 count privacy recasting,1
 count tracking,1
@@ -11781,7 +11786,7 @@ defense model poisoning,1
 defense non-stationary,1
 defense non-stationary bandit,1
 defense one,1
-defense one le,1
+defense one less,1
 defense softmax,1
 defense softmax parametrization,1
 defense stealing,1
@@ -14673,7 +14678,7 @@ end-to-end latent variational,1
 end-to-end meta-bayesian,1
 end-to-end meta-bayesian optimisation,1
 end-to-end reasoning,1
-end-to-end reasoning newton–cotes,1
+end-to-end reasoning newton,1
 end-to-end speech-to-text,1
 end-to-end speech-to-text translation,1
 end-to-end stability,1
@@ -17849,7 +17854,7 @@ game nerf-ibvs visual,1
 game networked,1
 game networked separable,1
 game part,1
-game part speech–grounded,1
+game part speech,1
 game partial,1
 game partial curvature,1
 game perspective,1
@@ -19228,6 +19233,8 @@ grounded decoding,1
 grounded decoding guiding,1
 grounded model,1
 grounded model embodied,1
+grounded subspace,1
+grounded subspace vision-language,1
 grounding learning,1
 grounding learning search,1
 grounding logic-enhanced,1
@@ -20267,7 +20274,7 @@ image active learning,1
 image analysis,1
 image analysis follow-up,1
 image better,1
-image better le,1
+image better less,1
 image brain,1
 image brain activity,1
 image branch,1
@@ -22406,7 +22413,7 @@ language model minimax,1
 language model mirage,1
 language model movie,1
 language model multi-body,1
-language model multimodn—multimodal,1
+language model multimodn,1
 language model n't,1
 language model nearly,1
 language model optimal,1
@@ -22728,14 +22735,6 @@ ldm animator nerf,1
 ldpc,1
 ldpc code,1
 ldpc code improve,1
-le alignment,1
-le alignment bi-level,1
-le data-active,1
-le data-active perspective,1
-le effective,1
-le effective augmentation,1
-le reason,1
-le reason filter,1
 leace,1
 leace perfect,1
 leace perfect linear,1
@@ -22955,7 +22954,7 @@ learning baseline lidar,1
 learning bayesian,1
 learning bayesian persuasion,1
 learning better dale,1
-learning better le,1
+learning better less,1
 learning beyond geometry,1
 learning beyond myopia,1
 learning beyond pretrained,1
@@ -24081,6 +24080,14 @@ lens treatment greedy,1
 lepard,1
 lepard learning,1
 lepard learning explicit,1
+less alignment,1
+less alignment bi-level,1
+less data-active,1
+less data-active perspective,1
+less effective,1
+less effective augmentation,1
+less reason,1
+less reason filter,1
 lesson,1
 lesson deep,1
 lesson deep equilibrium,1
@@ -24214,8 +24221,8 @@ likely,1
 likely function,1
 likely function parameter,1
 lima,1
-lima le,1
-lima le alignment,1
+lima less,1
+lima less alignment,1
 lime,1
 lime explanation,1
 lime explanation efficient,1
@@ -26814,8 +26821,8 @@ model multi-scale,1
 model multi-scale diffusion,1
 model multimodal,1
 model multimodal without,1
-model multimodn—multimodal,1
-model multimodn—multimodal multi-task,1
+model multimodn,1
+model multimodn —,1
 model mutual,1
 model mutual information,1
 model n't,1
@@ -27852,6 +27859,8 @@ multimodal learning,1
 multimodal learning idea,1
 multimodal masked,1
 multimodal masked modeling,1
+multimodal multi-task,1
+multimodal multi-task interpretable,1
 multimodal multitask,1
 multimodal multitask model,1
 multimodal perception,1
@@ -27879,9 +27888,9 @@ multimodality model prompting,1
 multimodality-diffused,1
 multimodality-diffused emotion,1
 multimodality-diffused emotion recognition,1
-multimodn—multimodal,1
-multimodn—multimodal multi-task,1
-multimodn—multimodal multi-task interpretable,1
+multimodn,1
+multimodn —,1
+multimodn — multimodal,1
 multinomial logistic bandit,1
 multipiece,1
 multipiece explanation,1
@@ -29112,12 +29121,11 @@ newton iteration,1
 newton iteration read,1
 newton method,1
 newton method sparseprop,1
+newton –,1
+newton – cote,1
 newton-like,1
 newton-like method,1
 newton-like method precision,1
-newton–cotes,1
-newton–cotes graph,1
-newton–cotes graph neural,1
 next,1
 next level,1
 next level large,1
@@ -29851,8 +29859,8 @@ one demonstration,1
 one demonstration enough,1
 one fit,1
 one fit power,1
-one le,1
-one le reason,1
+one less,1
+one less reason,1
 one objective,1
 one objective function,1
 one posterior,1
@@ -31011,8 +31019,8 @@ part discovery,1
 part discovery 3d,1
 part pose,1
 part pose occlusion,1
-part speech–grounded,1
-part speech–grounded subspace,1
+part speech,1
+part speech –,1
 part whole,1
 part whole experiment,1
 part-based,1
@@ -34487,8 +34495,8 @@ reasoning natural,1
 reasoning natural language,1
 reasoning navigating,1
 reasoning navigating pitfall,1
-reasoning newton–cotes,1
-reasoning newton–cotes graph,1
+reasoning newton,1
+reasoning newton –,1
 reasoning non-convex,1
 reasoning non-convex bilevel,1
 reasoning object-centric,1
@@ -37108,7 +37116,7 @@ scene h2rbox-v2 incorporating,1
 scene learning compress,1
 scene learning visual,1
 scene lima,1
-scene lima le,1
+scene lima less,1
 scene neural,1
 scene neural representation,1
 scene reconstruction bifurcation,1
@@ -39290,6 +39298,8 @@ speech representation,1
 speech representation learning,1
 speech separation,1
 speech separation leveraging,1
+speech –,1
+speech – grounded,1
 speech-language,1
 speech-language model,1
 speech-language model end-to-end,1
@@ -39299,9 +39309,6 @@ speech-to-speech translation learning,1
 speech-to-text,1
 speech-to-text translation,1
 speech-to-text translation reverse,1
-speech–grounded,1
-speech–grounded subspace,1
-speech–grounded subspace vision-language,1
 speed,1
 speed language,1
 speed language model,1
@@ -45248,9 +45255,14 @@ zoo improving knowledge,1
 zoomtrack,1
 zoomtrack target-aware,1
 zoomtrack target-aware non-uniform,1
-—,1
+– cote,1
+– cote graph,1
+– grounded,1
+– grounded subspace,1
 — fine-tuning,1
 — fine-tuning pre-trained,1
+— multimodal,1
+— multimodal multi-task,1
 ’ blame,1
 ’ blame dataset,1
 ’ cave,1

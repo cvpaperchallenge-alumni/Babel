@@ -14,11 +14,11 @@ from src.cvf import (
 
 # ---------- validate_conference ---------- #
 class TestValidateConference:
-    @pytest.mark.parametrize("year", [2013, 2020, 2024, 2025])
+    @pytest.mark.parametrize("year", [2013, 2020, 2024, 2025, 2026])
     def test_cvpr_supported_years(self, year):
         assert validate_conference("cvpr", year) == f"CVPR{year}"
 
-    @pytest.mark.parametrize("year", [2012, 2026, 1999, 3000])
+    @pytest.mark.parametrize("year", [2012, 2027, 1999, 3000])
     def test_cvpr_out_of_range_raises(self, year):
         with pytest.raises(ValueError, match="CVPR conference is held"):
             validate_conference("cvpr", year)

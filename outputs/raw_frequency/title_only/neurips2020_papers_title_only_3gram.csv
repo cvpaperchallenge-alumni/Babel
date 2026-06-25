@@ -5322,8 +5322,8 @@ common-pool,1
 common-pool resource,1
 common-pool resource management,1
 communicate,1
-communicate le,1
-communicate le resist,1
+communicate less,1
+communicate less resist,1
 communication compression,1
 communication compression decentralized,1
 communication emergent,1
@@ -12708,9 +12708,6 @@ lazy map,1
 lazy map nimble,1
 lazy training,1
 lazy training over-parameterized,1
-le,1
-le resist,1
-le resist byzantine,1
 lead,1
 lead biologically,1
 lead biologically plausible,1
@@ -13657,6 +13654,9 @@ leman go sparse,1
 lens,1
 lens computational,1
 lens computational complexity,1
+less,1
+less resist,1
+less resist byzantine,1
 let,1
 let network,1
 let network learn,1
@@ -16597,7 +16597,7 @@ new regularization method,1
 new scheme,1
 new scheme faster,1
 newton communicate,1
-newton communicate le,1
+newton communicate less,1
 newton magical,1
 newton magical benchmark,1
 nimble,1

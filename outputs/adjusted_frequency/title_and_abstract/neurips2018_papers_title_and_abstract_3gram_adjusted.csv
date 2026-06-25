@@ -2,7 +2,7 @@ word,count
 model,1364
 learning,1261
 network,1027
-algorithm,1016
+algorithm,1017
 data,741
 show,668
 neural,559
@@ -62,7 +62,7 @@ provide,189
 optimal,187
 object,186
 rate,184
-approximation,182
+approximation,183
 classification,180
 use,180
 many,179
@@ -72,8 +72,8 @@ generative,177
 machine,174
 convergence,172
 well,172
+input,170
 architecture,169
-input,169
 application,167
 introduce,164
 bayesian,163
@@ -91,7 +91,7 @@ matrix,149
 reinforcement learning,149
 state,148
 local,145
-even,142
+even,143
 theoretical,142
 multiple,139
 example,138
@@ -120,9 +120,9 @@ assumption,121
 regression,121
 sparse,121
 solution,120
+random,119
 constraint,118
 known,118
-random,118
 cost,117
 empirical,117
 noise,117
@@ -147,9 +147,9 @@ develop,107
 language,107
 often,107
 visual,107
+including,106
 attention,105
 gaussian,105
-including,105
 standard,105
 stochastic gradient,105
 across,104
@@ -163,9 +163,9 @@ find,101
 term,101
 allows,100
 gradient descent,100
+make,100
 may,100
 dataset,99
-make,99
 test,99
 computation,98
 environment,98
@@ -305,13 +305,13 @@ minimum,66
 procedure,66
 scene,66
 type,66
+called,65
+interaction,65
 result show,65
 sequential,65
-called,64
 derive,64
 exploit,64
 generate,64
-interaction,64
 scheme,64
 generation,63
 requires,63
@@ -370,6 +370,7 @@ proposed method,55
 query,55
 rule,55
 e.g.,54
+i.e.,54
 learner,54
 match,54
 noisy,54
@@ -382,7 +383,6 @@ conditional,53
 feedback,53
 generated,53
 good,53
-i.e.,53
 main,53
 moreover,53
 optimization problem,53
@@ -426,15 +426,16 @@ translation,49
 compute,48
 density,48
 evaluate,48
-focus,48
 interest,48
 neuron,48
+power,48
 reduce,48
 update,48
 among,47
 computationally,47
 despite,47
 et,47
+focus,47
 generalized,47
 hidden,47
 improves,47
@@ -442,7 +443,6 @@ inverse,47
 issue,47
 matching,47
 operation,47
-power,47
 related,47
 success,47
 supervised,47
@@ -517,7 +517,6 @@ deep network,41
 effectively,41
 explicitly,41
 f,41
-le,41
 outperform,41
 previously,41
 quality,41
@@ -530,6 +529,7 @@ contribution,40
 data set,40
 explore,40
 graphical,40
+less,40
 mnist,40
 predictive,40
 provably,40
@@ -612,6 +612,7 @@ whether,35
 active,34
 combining,34
 compare,34
+converge,34
 critical,34
 dimensionality,34
 dynamical,34
@@ -632,7 +633,6 @@ superior,34
 algorithmic,33
 box,33
 constrained,33
-converge,33
 demonstrated,33
 differentiable,33
 direction,33
@@ -766,6 +766,7 @@ unlabeled,28
 wa,28
 answer,27
 attribute,27
+beyond,27
 capable,27
 contextual,27
 converges,27
@@ -803,7 +804,6 @@ widely used,27
 activity,26
 applying,26
 area,26
-beyond,26
 computer vision,26
 conduct,26
 coupled,26
@@ -830,6 +830,7 @@ neural net,26
 normalization,26
 paper present,26
 phase,26
+play,26
 policy gradient,26
 predictor,26
 proximal,26
@@ -857,6 +858,7 @@ data distribution,25
 deep reinforcement learning,25
 define,25
 device,25
+discovery,25
 edge,25
 ensemble,25
 factorization,25
@@ -869,7 +871,6 @@ item,25
 network trained,25
 outcome,25
 outlier,25
-play,25
 present novel,25
 reducing,25
 relative,25
@@ -898,7 +899,6 @@ commonly,24
 dense,24
 developed,24
 development,24
-discovery,24
 easy,24
 fewer,24
 hand,24
@@ -922,6 +922,7 @@ strongly,24
 structure learning,24
 substantially,24
 theorem,24
+—,24
 acceleration,23
 additive,23
 assume,23
@@ -953,6 +954,7 @@ mutual,23
 observe,23
 optimized,23
 paradigm,23
+particularly,23
 proposed approach,23
 reduces,23
 representation learning,23
@@ -994,7 +996,6 @@ machine learning model,22
 model-based,22
 offer,22
 oracle,22
-particularly,22
 performing,22
 principal,22
 product,22
@@ -1040,6 +1041,7 @@ far,21
 flexibility,21
 frequency,21
 future,21
+gradient method,21
 imitation,21
 importance sampling,21
 localization,21
@@ -1074,7 +1076,6 @@ error bound,20
 expectation,20
 experiment demonstrate,20
 generalization error,20
-gradient method,20
 hence,20
 include,20
 indeed,20
@@ -1156,7 +1157,6 @@ best knowledge,18
 convolutional network,18
 correlated,18
 datasets show,18
-discus,18
 dnn,18
 essential,18
 et al.,18
@@ -1195,6 +1195,7 @@ transport,18
 uniform,18
 unsupervised learning,18
 vaes,18
+abstraction,17
 according,17
 activation function,17
 address issue,17
@@ -1214,6 +1215,7 @@ data point,17
 definition,17
 demonstrates,17
 directed,17
+discus,17
 disentangled,17
 distillation,17
 distortion,17
@@ -1273,7 +1275,6 @@ theoretical result,17
 trick,17
 walk,17
 zero-shot,17
-abstraction,16
 adaptively,16
 ai,16
 autoencoder,16
@@ -1309,6 +1310,7 @@ language model,16
 latent space,16
 learning rl,16
 many application,16
+mdp,16
 modelling,16
 moving,16
 object detection,16
@@ -1393,7 +1395,6 @@ markov decision,15
 markov decision process,15
 matrix factorization,15
 mcmc,15
-mdp,15
 mdps,15
 modified,15
 multimodal,15
@@ -1550,6 +1551,7 @@ visual question answering,14
 wasserstein distance,14
 weak,14
 zero-sum,14
+–,14
 -2,13
 -dimensional,13
 "0,1",13
@@ -1708,6 +1710,7 @@ expression,12
 feature space,12
 generalizing,12
 gradient evaluation,12
+guided,12
 high-resolution,12
 identity,12
 inequality,12
@@ -1830,7 +1833,6 @@ gate,11
 generalization performance,11
 gradient descent algorithm,11
 great,11
-guided,11
 hashing,11
 high-level,11
 image generation,11
@@ -2454,6 +2456,7 @@ independent interest,8
 inspiration,8
 instruction,8
 integrating,8
+integrator,8
 intuition,8
 involve,8
 kronecker,8
@@ -2606,7 +2609,6 @@ work present,8
 work well,8
 worse,8
 zero-sum game,8
-–,8
 2d image,7
 360°,7
 360° video,7
@@ -2763,7 +2765,6 @@ incur,7
 infeasible,7
 inference problem,7
 information theoretic,7
-integrator,7
 internal representation,7
 interpreting,7
 intrinsic reward,7
@@ -2806,6 +2807,7 @@ model data,7
 model make,7
 model perform,7
 model used,7
+model-based approach,7
 momentum,7
 monte carlo sampling,7
 movie,7
@@ -3274,7 +3276,6 @@ model often,6
 model outperforms,6
 model propose,6
 model provide,6
-model-based approach,6
 model-free algorithm,6
 modular,6
 monotone,6
@@ -3335,6 +3336,7 @@ placement,6
 plan,6
 playing,6
 poisoning,6
+policy gradient method,6
 policy gradient theorem,6
 policy regret,6
 polytopes,6

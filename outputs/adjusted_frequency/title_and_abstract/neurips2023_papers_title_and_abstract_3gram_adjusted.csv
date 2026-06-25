@@ -1,8 +1,8 @@
 word,count
-model,6440
-learning,4155
-data,2915
-algorithm,2235
+model,6441
+learning,4157
+data,2916
+algorithm,2236
 network,2052
 training,1895
 performance,1808
@@ -10,28 +10,28 @@ neural,1734
 propose,1709
 show,1637
 result,1573
-image,1503
+image,1504
 work,1387
 distribution,1288
 framework,1265
-graph,1226
+graph,1227
 representation,1211
 however,1182
-function,1169
+function,1170
 paper,1158
 feature,1150
 existing,1128
-ha,1114
+ha,1115
 demonstrate,1106
-sample,1074
+sample,1076
 experiment,1058
 neural network,1011
 datasets,972
 also,958
 optimization,927
-time,921
-policy,903
-language,896
+time,922
+policy,904
+language,897
 setting,888
 first,880
 diffusion,865
@@ -46,20 +46,20 @@ process,810
 state-of-the-art,791
 gradient,782
 introduce,733
-deep,714
+deep,715
 optimal,690
 dynamic,687
 efficient,677
 loss,671
 various,671
-domain,667
+domain,668
 present,666
 code,655
 's,648
 across,643
 design,629
 generalization,626
-input,618
+input,619
 point,613
 challenge,607
 available,606
@@ -74,8 +74,8 @@ knowledge,580
 number,579
 robust,574
 address,571
+benchmark,571
 dataset,571
-benchmark,569
 system,562
 transformer,561
 learn,556
@@ -109,13 +109,13 @@ often,496
 achieves,494
 due,494
 language model,486
-property,483
+property,484
 better,463
 many,463
 machine,462
-given,458
+given,459
 achieve,457
-classification,456
+classification,457
 rl,455
 specifically,453
 convergence,450
@@ -126,8 +126,8 @@ state,441
 strategy,441
 effectiveness,436
 simple,435
+including,432
 outperforms,432
-including,431
 solution,430
 trained,428
 latent,427
@@ -137,7 +137,7 @@ compared,424
 robustness,424
 environment,422
 even,418
-may,417
+may,418
 causal,416
 example,412
 challenging,409
@@ -156,12 +156,12 @@ improve,395
 cost,394
 general,393
 find,392
+detection,391
 issue,391
-detection,390
 significant,390
 case,385
 machine learning,384
-prompt,381
+prompt,382
 ability,380
 action,380
 modeling,377
@@ -171,7 +171,7 @@ matrix,370
 several,370
 video,370
 limited,366
-value,365
+value,366
 efficiency,363
 memory,362
 attention,360
@@ -182,7 +182,7 @@ size,356
 approximation,352
 k,352
 noise,352
-context,350
+context,351
 regret,348
 baseline,345
 synthetic,344
@@ -224,12 +224,12 @@ segmentation,310
 instance,309
 pre-trained,307
 propose novel,306
+field,305
 random,305
 source,305
-field,304
+variable,301
+e.g.,300
 lead,300
-variable,300
-e.g.,299
 key,298
 prove,298
 regression,298
@@ -237,24 +237,24 @@ user,298
 diverse,296
 global,294
 aim,293
+game,293
 interaction,293
-game,292
 within,292
+concept,291
 decision,291
 scale,291
 thus,291
-concept,290
 furthermore,289
 scene,289
 develop,287
 empirically,287
 moreover,286
 output,286
+reasoning,286
 theory,286
 gaussian,285
 observation,285
 practical,285
-reasoning,285
 score,284
 gap,282
 effect,281
@@ -274,7 +274,7 @@ query,270
 sparse,269
 flow,267
 evaluate,266
-i.e.,262
+i.e.,263
 bayesian,261
 best,261
 three,261
@@ -300,9 +300,9 @@ pre-training,243
 provides,243
 yet,243
 improves,242
+perform,242
 computation,241
 large language,241
-perform,241
 generated,240
 measure,240
 need,240
@@ -311,10 +311,10 @@ distance,238
 large language model,238
 capability,237
 allows,236
+dimension,234
 large-scale,234
 research,234
 descent,233
-dimension,233
 real,232
 exploration,231
 requires,231
@@ -340,15 +340,15 @@ type,220
 component,219
 u,219
 regularization,217
-transfer,216
+transfer,217
+estimator,216
 directly,215
-estimator,215
 risk,214
 solving,214
+alignment,213
 lower bound,213
 scheme,213
 unknown,213
-alignment,212
 approximate,211
 paper propose,211
 goal,210
@@ -357,10 +357,10 @@ exhibit,209
 existing method,209
 theoretically,209
 adaptation,208
+paradigm,207
 popular,207
 additional,206
 explanation,206
-paradigm,206
 common,205
 feedback,205
 require,205
@@ -385,9 +385,9 @@ classifier,195
 either,195
 remains,194
 variance,194
+like,193
 obtain,193
 federated,192
-like,192
 doe,191
 achieving,190
 change,190
@@ -399,11 +399,11 @@ wide,189
 benefit,188
 derive,188
 generating,188
+leveraging,188
 modality,188
 posterior,188
 shape,188
 vector,188
-leveraging,187
 solve,187
 unsupervised,186
 conduct,185
@@ -436,6 +436,7 @@ achieved,178
 motion,178
 similar,178
 highly,177
+multimodal,177
 numerical,177
 pattern,177
 representation learning,177
@@ -443,14 +444,12 @@ rule,177
 differential,176
 explore,176
 fundamental,176
-multimodal,176
 designed,175
 practice,175
 time series,175
 upper,175
 world,175
 additionally,174
-le,174
 similarity,174
 attribute,173
 embedding,173
@@ -468,6 +467,7 @@ discovery,169
 stability,169
 equation,168
 independent,168
+less,168
 private,168
 discrete,167
 enhance,167
@@ -517,7 +517,7 @@ manner,153
 pair,153
 brain,152
 embeddings,152
-competitive,150
+competitive,151
 construct,149
 give,149
 clip,148
@@ -613,12 +613,12 @@ variation,131
 comparable,130
 consistent,130
 labeled,130
+showing,130
 supervision,130
 arbitrary,129
 distributed,129
 flexible,129
 out-of-distribution,129
-showing,129
 text-to-image,129
 access,128
 foundation,128
@@ -664,6 +664,7 @@ predict,120
 recognition,120
 synthesis,120
 testing,120
+thereby,120
 tree,120
 constrained,119
 contextual,119
@@ -672,7 +673,6 @@ hard,119
 inverse,119
 optimize,119
 state-of-the-art method,119
-thereby,119
 content,118
 federated learning,118
 increasing,118
@@ -862,6 +862,7 @@ answer,95
 overfitting,95
 progress,95
 recurrent,95
+requiring,95
 amount,94
 distributional,94
 energy,94
@@ -870,7 +871,6 @@ introduces,94
 object detection,94
 oracle,94
 quantum,94
-requiring,94
 sota,94
 budget,93
 multi-agent,93
@@ -891,6 +891,7 @@ efficacy,91
 heterogeneous,91
 illustrate,91
 initial,91
+predictor,91
 ratio,91
 sensitive,91
 sgd,91
@@ -898,19 +899,17 @@ usually,91
 allow,90
 foundation model,90
 involves,90
-predictor,90
 randomized,90
 ssl,90
 surface,90
 version,90
+assignment,89
 compare,89
 dense,89
 designing,89
-f,89
 link,89
 prompting,89
 proxy,89
-assignment,88
 found,88
 identifying,88
 imitation,88
@@ -931,6 +930,8 @@ candidate,86
 criterion,86
 defense,86
 differential equation,86
+f,86
+in-context learning,86
 outperforms state-of-the-art,86
 sensitivity,86
 unique,86
@@ -939,7 +940,7 @@ characteristic,85
 considering,85
 development,85
 enhancing,85
-in-context learning,85
+measurement,85
 minimum,85
 mitigate,85
 offline rl,85
@@ -949,7 +950,6 @@ coverage,84
 ha shown,84
 inductive,84
 masked,84
-measurement,84
 round,84
 suggest,84
 varying,84
@@ -967,6 +967,7 @@ largely,83
 manipulation,83
 optimality,83
 understand,83
+applying,82
 core,82
 discrepancy,82
 e.g,82
@@ -976,7 +977,6 @@ issue propose,82
 past,82
 smooth,82
 test-time,82
-applying,81
 computer vision,81
 detector,81
 exponential,81
@@ -992,6 +992,7 @@ adversary,80
 balance,80
 base,80
 collection,80
+combined,80
 difficulty,80
 numerous,80
 optimal transport,80
@@ -1002,7 +1003,6 @@ reliable,80
 special,80
 whose,80
 year,80
-combined,79
 considered,79
 dependence,79
 expressive,79
@@ -1029,6 +1029,7 @@ safety,78
 total,78
 consists,77
 convolution,77
+counterfactual,77
 degree,77
 differential privacy,77
 formulate,77
@@ -1036,8 +1037,8 @@ frequency,77
 generic,77
 light,77
 public,77
+—,77
 asymptotic,76
-counterfactual,76
 datasets demonstrate,76
 define,76
 deployment,76
@@ -1060,6 +1061,7 @@ machine learning model,75
 mdps,75
 medical,75
 mutual,75
+namely,75
 normalization,75
 phase,75
 policy optimization,75
@@ -1073,7 +1075,6 @@ entropy,74
 equivalent,74
 fair,74
 multi-view,74
-namely,74
 non-convex,74
 physical,74
 preserve,74
@@ -1116,6 +1117,7 @@ great,71
 must,71
 next,71
 optimized,71
+proof,71
 publicly available,71
 smoothness,71
 substantial,71
@@ -1128,7 +1130,6 @@ depends,70
 device,70
 enhances,70
 preserving,70
-proof,70
 recommendation,70
 scalability,70
 semantic segmentation,70
@@ -1265,6 +1266,7 @@ state-of-the-art result,62
 weighted,62
 according,61
 advancement,61
+aligned,61
 art,61
 channel,61
 differentially private,61
@@ -1281,9 +1283,9 @@ provable,61
 recent year,61
 resolution,61
 significant improvement,61
+speech,61
 spiking,61
 successful,61
-aligned,60
 conduct extensive,60
 correlated,60
 effectiveness proposed,60
@@ -1305,7 +1307,6 @@ paper introduce,60
 patch,60
 physic,60
 self-supervised learning,60
-speech,60
 advanced,59
 answering,59
 augmented,59
@@ -1359,6 +1360,7 @@ involve,57
 low-dimensional,57
 maximization,57
 paper propose novel,57
+quantification,57
 side,57
 strength,57
 attempt,56
@@ -1369,6 +1371,7 @@ compact,56
 converge,56
 diffusion-based,56
 enhanced,56
+finetuning,56
 guided,56
 includes,56
 lipschitz,56
@@ -1376,7 +1379,6 @@ mode,56
 numerical experiment,56
 predicted,56
 q,56
-quantification,56
 radiance field,56
 recovery,56
 remove,56
@@ -1386,6 +1388,7 @@ semantics,56
 spatio-temporal,56
 study problem,56
 task-specific,56
+though,56
 address issue propose,55
 adversarial training,55
 box,55
@@ -1397,7 +1400,6 @@ definition,55
 developing,55
 exploiting,55
 failure,55
-finetuning,55
 g,55
 generalizes,55
 latent variable,55
@@ -1412,7 +1414,6 @@ simulated,55
 speedup,55
 synthetic data,55
 tend,55
-though,55
 top,55
 training process,55
 typical,55
@@ -1462,6 +1463,7 @@ setup,53
 smoothing,53
 stream,53
 tailored,53
+transfer learning,53
 vision-language model,53
 ”,53
 affect,52
@@ -1480,7 +1482,6 @@ grid,52
 heavily,52
 inequality,52
 interpretation,52
-l,52
 method outperforms,52
 methodology,52
 monte carlo,52
@@ -1491,10 +1492,8 @@ second-order,52
 serve,52
 show proposed,52
 specialized,52
-subspace,52
 target domain,52
 tracking,52
-transfer learning,52
 work present,52
 bridge gap,51
 caused,51
@@ -1510,6 +1509,7 @@ extra,51
 feasible,51
 forgetting,51
 integrated,51
+l,51
 law,51
 least,51
 lightweight,51
@@ -1527,6 +1527,7 @@ quantify,51
 raw,51
 stationary,51
 studying,51
+subspace,51
 transferability,51
 uniform,51
 validation,51
@@ -1599,6 +1600,7 @@ long-range,48
 neighborhood,48
 plasticity,48
 probabilistic model,48
+protocol,48
 real-world scenario,48
 relying,48
 selecting,48
@@ -1609,6 +1611,7 @@ subgraph,48
 training sample,48
 training set,48
 transform,48
+uncertainty quantification,48
 valuable,48
 volume,48
 address limitation,47
@@ -1627,16 +1630,15 @@ model size,47
 modification,47
 needed,47
 paper proposes,47
-protocol,47
 restoration,47
 short,47
 suite,47
 taking,47
 tradeoff,47
-uncertainty quantification,47
 unfortunately,47
 unlearning,47
 usage,47
+–,47
 adversarial robustness,46
 bayesian optimization,46
 cifar-10,46
@@ -1747,7 +1749,6 @@ separation,43
 state art,43
 streaming,43
 topological,43
-v,43
 whole,43
 adding,42
 ambiguity,42
@@ -1786,7 +1787,6 @@ two-layer,42
 valid,42
 variational inference,42
 aggregate,41
-ass,41
 attention mechanism,41
 becomes,41
 better performance,41
@@ -1827,6 +1827,7 @@ situation,41
 text prompt,41
 time-varying,41
 uncertainty estimation,41
+v,41
 yielding,41
 adapter,40
 arise,40
@@ -1877,13 +1878,13 @@ tractable,40
 variability,40
 weighting,40
 accelerate,39
+assess,39
 comprehensive experiment,39
 considerable,39
 corresponds,39
 deep network,39
 demonstrate approach,39
 detect,39
-discus,39
 distributionally robust,39
 empirical evaluation,39
 empirically demonstrate,39
@@ -1905,7 +1906,6 @@ model performance,39
 neural architecture,39
 parameterization,39
 parameterized,39
-posse,39
 recurrent neural network,39
 researcher,39
 start,39
@@ -1929,6 +1929,7 @@ deeper,38
 demonstrate superiority,38
 deviation,38
 dimensional,38
+discus,38
 domain adaptation,38
 embedding space,38
 empirical risk,38
@@ -2032,6 +2033,7 @@ cover,36
 encourages,36
 episode,36
 general framework,36
+grounded,36
 hessian,36
 high-level,36
 image-text,36
@@ -2081,7 +2083,6 @@ frozen,35
 gaussian distribution,35
 generalizability,35
 generalization error,35
-grounded,35
 in-distribution,35
 insufficient,35
 large number,35
@@ -2116,6 +2117,7 @@ vit,35
 work show,35
 abstract,34
 address challenge propose,34
+animal,34
 anns,34
 assumed,34
 autonomous driving,34
@@ -2173,7 +2175,6 @@ add,33
 adversarially,33
 alone,33
 analytical,33
-animal,33
 arises,33
 atom,33
 benign,33
@@ -2266,6 +2267,7 @@ method often,32
 mirror,32
 model learn,32
 non-asymptotic,32
+optimal policy,32
 pretrained model,32
 previous state-of-the-art,32
 primitive,32
@@ -2321,7 +2323,6 @@ lens,31
 maintains,31
 meaning,31
 neural operator,31
-optimal policy,31
 optimizers,31
 pde,31
 personalization,31
@@ -2340,6 +2341,7 @@ test time,31
 treatment effect,31
 trend,31
 updating,31
+vits,31
 w,31
 weakly,31
 wide variety,31
@@ -2424,7 +2426,6 @@ unconstrained,30
 verification,30
 viewed,30
 visualization,30
-vits,30
 adam,29
 also provide,29
 and/or,29
@@ -2489,7 +2490,6 @@ theoretically empirically,29
 time complexity,29
 time-consuming,29
 transformer architecture,29
-–,29
 3d shape,28
 ablation,28
 absence,28
@@ -2562,7 +2562,6 @@ shed light,28
 show algorithm,28
 slot,28
 solves,28
-sr,28
 stopping,28
 supported,28
 synthesizing,28
@@ -2597,6 +2596,7 @@ empirical evidence,27
 ensembling,27
 environmental,27
 establishing,27
+fisher,27
 fundamental problem,27
 generalization capability,27
 goal-conditioned,27
@@ -2625,6 +2625,7 @@ parameter-efficient,27
 platform,27
 poly,27
 pose significant,27
+possess,27
 posterior sampling,27
 previous study,27
 propose efficient,27
@@ -2645,6 +2646,7 @@ thousand,27
 train model,27
 training objective,27
 updated,27
+vehicle,27
 w.r.t,27
 work focus,27
 across diverse,26
@@ -2670,7 +2672,6 @@ enforce,26
 equal,26
 extent,26
 fill gap,26
-fisher,26
 former,26
 gaussian mixture,26
 highest,26
@@ -2702,6 +2703,7 @@ proving,26
 quantitatively,26
 ray,26
 refer,26
+regression problem,26
 regret guarantee,26
 rejection,26
 relaxed,26
@@ -2715,10 +2717,10 @@ source code available,26
 specifically propose,26
 spurious correlation,26
 squared,26
+sr,26
 tested,26
 text-to-image model,26
 vast,26
-vehicle,26
 -1,25
 1-,25
 accelerating,25
@@ -2780,7 +2782,6 @@ prediction error,25
 problem learning,25
 random feature,25
 rare,25
-regression problem,25
 relational,25
 rigorously,25
 scoring,25
@@ -3125,7 +3126,6 @@ voxel,22
 weakly-supervised,22
 web,22
 z,22
-—,22
 absolute,21
 additionally introduce,21
 addressed,21
@@ -3283,6 +3283,7 @@ approach learning,20
 asynchronous,20
 attention layer,20
 best-known,20
+categorical,20
 centralized,20
 circumvent,20
 classification problem,20
@@ -3433,9 +3434,9 @@ benchmark including,19
 better generalization,19
 bo,19
 careful,19
-categorical,19
 challenge paper,19
 compared prior,19
+competitor,19
 computational resource,19
 controller,19
 correctness,19
@@ -3586,7 +3587,6 @@ cf,18
 clip model,18
 coco,18
 communication cost,18
-competitor,18
 composite,18
 compositional generalization,18
 comprises,18
@@ -3595,13 +3595,13 @@ contained,18
 convolutional network,18
 cross-entropy,18
 crucially,18
-cv,18
 cyclic,18
 data privacy,18
 de,18
 decision-making problem,18
 decomposes,18
 decoupling,18
+deep rl,18
 deploying,18
 detrimental,18
 dg,18
@@ -3733,12 +3733,12 @@ confidence bound,17
 copy,17
 correspond,17
 critic,17
+cv,17
 data generation,17
 data paper,17
 data-dependent,17
 database,17
 debiasing,17
-deep rl,17
 deliver,17
 denoising process,17
 denoising step,17
@@ -4263,6 +4263,7 @@ panorama,15
 paper consider,15
 paper explore,15
 paper investigates,15
+parity,15
 pave,15
 periodic,15
 pid,15
@@ -4343,6 +4344,7 @@ vanishing,15
 various downstream,15
 visual attribute,15
 visual feature,15
+visual reasoning,15
 widely adopted,15
 wild,15
 work consider,15
@@ -4433,6 +4435,7 @@ faced,14
 factorized,14
 faithfully,14
 feature extractor,14
+fisher information,14
 fitted,14
 formed,14
 forward model,14
@@ -4454,6 +4457,7 @@ hopfield,14
 human behavior,14
 human motion,14
 human perception,14
+ica,14
 image captioning,14
 image denoising,14
 image however,14
@@ -4520,13 +4524,14 @@ model significantly,14
 model use,14
 monocular depth,14
 motivates,14
-much le,14
+much less,14
 multidimensional,14
 n^2,14
 nearly optimal,14
 necessitates,14
 nesterov,14
 neural response,14
+newton,14
 none,14
 nuscenes,14
 object detector,14
@@ -4536,7 +4541,6 @@ opposed,14
 optimal algorithm,14
 original image,14
 parallelism,14
-parity,14
 partial label,14
 particular show,14
 payoff,14
@@ -4630,7 +4634,6 @@ various setting,14
 verify effectiveness,14
 verifying,14
 visual input,14
-visual reasoning,14
 visual recognition,14
 wall-clock,14
 well understood,14
@@ -4755,7 +4758,6 @@ field nerf,13
 finally present,13
 fine,13
 first present,13
-fisher information,13
 fix,13
 fractional,13
 framework achieves,13
@@ -4780,7 +4782,6 @@ highly effective,13
 however previous,13
 human evaluation,13
 hyperparameter tuning,13
-ica,13
 image quality,13
 image super-resolution,13
 imagination,13
@@ -4949,6 +4950,7 @@ space model,13
 stackelberg,13
 stand,13
 state-of-the-art algorithm,13
+statistical property,13
 stepsizes,13
 stop,13
 strong baseline,13
@@ -5014,6 +5016,7 @@ algorithm online,12
 among different,12
 analysis demonstrates,12
 anytime,12
+appears,12
 approach allows,12
 approach problem,12
 artificial neural,12
@@ -5035,7 +5038,6 @@ breakthrough,12
 bring,12
 build upon,12
 bypass,12
-ca,12
 calculated,12
 calibrating,12
 candidate label,12
@@ -5230,7 +5232,6 @@ neighbor search,12
 neural network model,12
 neural recording,12
 neurips,12
-newton,12
 node pair,12
 non-iid,12
 normative,12
@@ -5309,7 +5310,6 @@ slightly,12
 sota method,12
 specifically designed,12
 splitting,12
-statistical property,12
 statistical query,12
 steer,12
 stochastic block,12
@@ -5388,7 +5388,6 @@ also provides,11
 ambiguous,11
 amenable,11
 annotator,11
-appears,11
 approach address,11
 approach proposed,11
 approach yield,11
@@ -5884,6 +5883,7 @@ black,10
 block-wise,10
 bound show,10
 buffer,10
+ca,10
 calculate,10
 calibration error,10
 care,10
@@ -6241,6 +6241,7 @@ polylog,10
 pomdps,10
 posing,10
 posit,10
+possesses,10
 post hoc,10
 pre-trained text-to-image,10
 pre-training strategy,10
@@ -6503,6 +6504,7 @@ concurrent,9
 conditional generative model,9
 conditional sampling,9
 confidence score,9
+confidence value,9
 connected neural,9
 connected neural network,9
 consider setting,9
@@ -7015,6 +7017,7 @@ social bias,9
 soda,9
 space ha,9
 space propose,9
+space time,9
 specifically consider,9
 specifying,9
 spectral kernel,9
@@ -7247,7 +7250,6 @@ conditional stochastic,8
 conduct comprehensive experiment,8
 conference,8
 confidence sequence,8
-confidence value,8
 confounder,8
 consistent performance,8
 constraint violation,8
@@ -7271,6 +7273,7 @@ corrupted user,8
 cortical surface,8
 cosine,8
 cost training,8
+counterfactual fairness,8
 counterfactuals,8
 course,8
 covered,8
@@ -7821,10 +7824,12 @@ rate t^,8
 rate-distortion,8
 rationality,8
 readout,8
+real-world problem,8
 realistic image,8
 realizability,8
 recent work shown,8
 recently ha,8
+receptive field,8
 recommend,8
 reconstruction attack,8
 reconstruction method,8
@@ -7922,7 +7927,6 @@ source data,8
 space complexity,8
 space however,8
 space paper,8
-space time,8
 sparse-reward,8
 sparsity pattern,8
 specialization,8
@@ -8308,7 +8312,6 @@ correlation across,7
 correlation clustering,7
 cost model,7
 cost paper,7
-counterfactual fairness,7
 crafting,7
 critical point,7
 crystalline,7
@@ -8431,7 +8434,6 @@ equation ode,7
 equilibrium ne,7
 equipping,7
 equivariant architecture,7
-era,7
 error accumulation,7
 error-prone,7
 escape,7
@@ -8705,7 +8707,6 @@ latent structure,7
 layer model,7
 layer network,7
 layerwise,7
-le attention,7
 lead significant,7
 learn complex,7
 learning architecture,7
@@ -8721,6 +8722,7 @@ learning rl agent,7
 learning time,7
 learning training,7
 learning visual observation,7
+less attention,7
 leverage large language,7
 leverage score,7
 limitation introduce,7
@@ -8960,6 +8962,7 @@ physical symmetry,7
 physical world,7
 piecewise affine,7
 pii,7
+pile,7
 play important,7
 play important role,7
 plf,7
@@ -9063,7 +9066,6 @@ read,7
 readily available,7
 real-world dataset,7
 real-world datasets show,7
-real-world problem,7
 real-world setting,7
 real-world system,7
 reasoning capability,7
@@ -9072,7 +9074,6 @@ receiving,7
 recent line,7
 recent year however,7
 recent year witnessed,7
-receptive field,7
 recess,7
 recognition model,7
 recurrent network,7
@@ -9850,6 +9851,7 @@ distribution latent,6
 distribution paper,6
 distribution propose,6
 distribution provide,6
+distribution sample,6
 distribution used,6
 distributional assumption,6
 dit-3d,6
@@ -10325,6 +10327,7 @@ layer normalization,6
 layoutgpt,6
 layoutprompter,6
 ldpc,6
+le,6
 lead state-of-the-art,6
 leading sub-optimal,6
 league,6
@@ -10503,6 +10506,7 @@ model few-shot,6
 model fine-tuned,6
 model function,6
 model generative,6
+model input,6
 model joint,6
 model language,6
 model limited,6
@@ -10552,6 +10556,7 @@ multi-modality,6
 multi-objective optimization,6
 multi-swap,6
 multimodal transformer,6
+multimodn,6
 multinomial logistic,6
 multiplayer,6
 multiplayer game,6
@@ -10562,6 +10567,7 @@ mvdiffusion,6
 n matrix,6
 n number,6
 n-body,6
+naive approach,6
 nash equilibrium ne,6
 natural language understanding,6
 navier-stokes,6
@@ -10741,7 +10747,6 @@ photo-realistic,6
 photorealistic,6
 physics-informed neural,6
 physics-informed neural network,6
-pile,6
 pixel-based,6
 plain,6
 planar graph,6
@@ -11024,7 +11029,7 @@ significant impact,6
 significant limitation,6
 significant performance gain,6
 significantly enhance,6
-significantly le,6
+significantly less,6
 significantly outperforms state-of-the-art,6
 significantly reducing,6
 significantly surpasses,6
@@ -11245,6 +11250,7 @@ uncoupled,6
 uncovers,6
 underexplored,6
 undergo,6
+underlying model,6
 underpinning,6
 understudied,6
 unfair,6

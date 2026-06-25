@@ -1,0 +1,1087 @@
+word,count
+model,677
+learning,480
+video,457
+generation,450
+3d,443
+image,431
+diffusion,297
+multimodal,284
+visual,274
+detection,223
+reasoning,214
+segmentation,192
+object,189
+vision-language,188
+reconstruction,187
+efficient,177
+dynamic,165
+gaussian,160
+scene,154
+framework,146
+representation,145
+large,129
+vision-language model,128
+alignment,126
+language,125
+motion,125
+semantic,125
+transformer,123
+splatting,118
+gaussian splatting,115
+adaptive,111
+diffusion model,108
+generative,106
+benchmark,104
+editing,103
+vision,103
+modeling,100
+estimation,95
+optimization,93
+network,91
+robust,91
+language model,90
+latent,90
+dataset,89
+token,88
+flow,87
+human,87
+feature,83
+fusion,83
+spatial,83
+adaptation,80
+neural,79
+data,77
+video generation,76
+hierarchical,75
+fine-grained,74
+reinforcement,74
+multi-view,73
+training-free,73
+synthesis,72
+beyond,71
+object detection,71
+perception,69
+recognition,69
+3d gaussian,68
+world,68
+4d,66
+distillation,66
+point,66
+large language,65
+reinforcement learning,65
+training,65
+zero-shot,65
+attention,64
+prediction,64
+temporal,63
+test-time,63
+large language model,62
+matching,62
+prompt,62
+driving,60
+autoregressive,59
+pose,59
+action,58
+medical,58
+tracking,58
+control,57
+interaction,57
+grounding,56
+foundation,55
+3d gaussian splatting,54
+enhancing,54
+graph,54
+consistency,51
+geometry,51
+multi-modal,51
+retrieval,51
+space,51
+agent,50
+foundation model,50
+text-to-image,50
+compression,49
+monocular,49
+anomaly,48
+guidance,48
+large-scale,48
+open-vocabulary,48
+autonomous,47
+depth,46
+geometric,46
+image generation,46
+manipulation,46
+sparse,45
+concept,44
+generalizable,44
+high-fidelity,44
+rethinking,44
+super-resolution,44
+continual,43
+few-shot,43
+diffusion transformer,42
+domain,42
+mllms,42
+reward,42
+cross-modal,41
+multimodal large,41
+adversarial,40
+anomaly detection,40
+federated,40
+guided,40
+multimodal large language,40
+scaling,40
+self-supervised,40
+video understanding,40
+attack,39
+autonomous driving,39
+benchmarking,39
+bridging,39
+camera,39
+cloud,39
+controllable,39
+text,39
+sensing,38
+3d reconstruction,37
+contrastive,37
+hallucination,37
+llm,37
+point cloud,37
+classification,36
+fast,36
+memory,36
+pose estimation,36
+real-world,36
+transfer,36
+knowledge,35
+navigation,35
+real-time,35
+long,34
+semantic segmentation,34
+active,33
+planning,33
+progressive,33
+remote,33
+unsupervised,33
+end-to-end,32
+feed-forward,32
+image editing,32
+localization,32
+mitigating,32
+refinement,32
+streaming,32
+avatar,31
+field,31
+universal,31
+decomposition,30
+dense,30
+fine-tuning,30
+generalization,30
+scalable,30
+consistent,29
+diffusion-based,29
+flow matching,29
+head,29
+policy,29
+preference,29
+remote sensing,29
+restoration,29
+synthetic,29
+large vision-language,28
+personalized,28
+robotic,28
+shape,28
+trajectory,28
+vision-language-action,28
+3d object,27
+assessment,27
+comprehensive,27
+hybrid,27
+large vision-language model,27
+multi-agent,27
+online,27
+physical,27
+quality,27
+representation learning,27
+3d scene,26
+collaborative,26
+distribution,26
+egocentric,26
+embodied,26
+expert,26
+face,26
+image segmentation,26
+mesh,26
+pretraining,26
+supervision,26
+view synthesis,26
+world model,26
+chain-of-thought,25
+decoding,25
+dual,25
+generalized,25
+heterogeneous,25
+joint,25
+spatio-temporal,25
+text-to-image generation,25
+enhanced,24
+grounded,24
+instance,24
+lidar,24
+matter,24
+medical image,24
+modality,24
+multimodal model,24
+noise,24
+pruning,24
+sampling,24
+see,24
+stereo,24
+vision-language-action model,24
+accelerating,23
+animation,23
+causal,23
+completion,23
+decoupling,23
+global,23
+imaging,23
+intelligence,23
+local,23
+map,23
+person,23
+pixel,23
+robot,23
+selection,23
+structured,23
+unlocking,23
+video diffusion,23
+vlm,23
+clustering,22
+compositional,22
+context,22
+continual learning,22
+cross-view,22
+deep,22
+denoising,22
+enhancement,22
+human motion,22
+label,22
+lightweight,22
+perspective,22
+precise,22
+rendering,22
+robustness,22
+unifying,22
+vision transformer,22
+dynamic scene,21
+image restoration,21
+long video,21
+neural network,21
+residual,21
+revisiting,21
+test-time adaptation,21
+advancing,20
+correspondence,20
+depth estimation,20
+evaluating,20
+gui,20
+implicit,20
+interactive,20
+masked,20
+merging,20
+pre-training,20
+re-identification,20
+recovery,20
+thinking,20
+uncertainty,20
+vision language,20
+agentic,19
+boosting,19
+calibration,19
+decoupled,19
+event-based,19
+federated learning,19
+gradient,19
+optimal,19
+probabilistic,19
+quality assessment,19
+question,19
+removal,19
+spatiotemporal,19
+spectral,19
+3d object detection,18
+condition,18
+cross-domain,18
+differentiable,18
+discovery,18
+diverse,18
+document,18
+embedding,18
+gap,18
+image super-resolution,18
+mapping,18
+meet,18
+multimodal llm,18
+novel view,18
+real,18
+registration,18
+simulation,18
+spatial reasoning,18
+system,18
+tuning,18
+vlms,18
+acceleration,17
+ai-generated,17
+answering,17
+brain,17
+degradation,17
+environment,17
+generating,17
+generative model,17
+high-quality,17
+incremental,17
+infrared,17
+iterative,17
+leveraging,17
+motion generation,17
+one-step,17
+robotic manipulation,17
+scale,17
+structural,17
+structure,17
+time,17
+unlearning,17
+unleashing,17
+virtual,17
+2d,16
+clip,16
+continuous,16
+expression,16
+hand,16
+high-resolution,16
+in-context,16
+indoor,16
+interpretable,16
+low-light,16
+medical image segmentation,16
+multi-task,16
+multimodal reasoning,16
+novel view synthesis,16
+preference optimization,16
+quantization,16
+referring,16
+score,16
+search,16
+semantics,16
+vision language model,16
+'s,15
+aerial,15
+architecture,15
+bias,15
+capability,15
+capture,15
+category,15
+compact,15
+complex,15
+correction,15
+cue,15
+design,15
+exploration,15
+image fusion,15
+mask,15
+metric,15
+modulation,15
+multi-scale,15
+person re-identification,15
+prompting,15
+query,15
+question answering,15
+realistic,15
+reflection,15
+region,15
+scene reconstruction,15
+scene understanding,15
+subspace,15
+unified framework,15
+unified multimodal,15
+vector,15
+video editing,15
+video reasoning,15
+wild,15
+3d human,14
+3d shape,14
+across,14
+anchor,14
+articulated,14
+audio-visual,14
+backdoor,14
+black-box,14
+captioning,14
+color,14
+conditional,14
+dataset distillation,14
+deepfake,14
+direct,14
+edge,14
+efficient video,14
+geometry-aware,14
+image compression,14
+instruction,14
+inverse,14
+mitigation,14
+mixture,14
+monocular video,14
+occupancy,14
+panoramic,14
+paradigm,14
+policy optimization,14
+post-training,14
+stable,14
+state,14
+style,14
+supervised,14
+taming,14
+transport,14
+vision foundation,14
+vision foundation model,14
+visual geometry,14
+visual grounding,14
+action recognition,13
+adapter,13
+aligning,13
+attribute,13
+bayesian,13
+breaking,13
+data-efficient,13
+detecting,13
+discrete,13
+extreme,13
+general,13
+head avatar,13
+human-object,13
+human-object interaction,13
+image retrieval,13
+large multimodal,13
+large multimodal model,13
+long-term,13
+mamba,13
+multiple,13
+primitive,13
+semi-supervised,13
+shift,13
+strategy,13
+visual reasoning,13
+3d generation,12
+aggregation,12
+ai-generated image,12
+asymmetric,12
+bidirectional,12
+comprehensive benchmark,12
+correlation,12
+disentangled,12
+disentanglement,12
+domain adaptation,12
+effective,12
+egocentric video,12
+encoding,12
+explicit,12
+facial,12
+feed-forward 3d,12
+feedback,12
+image classification,12
+intrinsic,12
+long-tailed,12
+material,12
+mixture-of-experts,12
+mllm,12
+negative,12
+object segmentation,12
+observation,12
+open,12
+open-world,12
+optical,12
+parallel,12
+parameter,12
+perceptual,12
+portrait,12
+power,12
+radar,12
+scene generation,12
+selective,12
+sparse-view,12
+surface,12
+synthetic data,12
+textual,12
+texture,12
+token compression,12
+transformation,12
+understanding generation,12
+visual token,12
+3d visual,11
+4d reconstruction,11
+anything,11
+attribution,11
+better,11
+bridge,11
+building,11
+change,11
+collaboration,11
+composed,11
+composition,11
+contrastive learning,11
+curriculum,11
+deepfake detection,11
+diffusion prior,11
+enabling,11
+end-to-end autonomous,11
+end-to-end autonomous driving,11
+few-step,11
+filtering,11
+forecasting,11
+latent diffusion,11
+latent space,11
+layout,11
+learnable,11
+long video understanding,11
+long-horizon,11
+low-rank,11
+mechanism,11
+missing,11
+monocular 3d,11
+multi-label,11
+native,11
+need,11
+noisy,11
+object pose,11
+orthogonal,11
+out-of-distribution,11
+physically,11
+plug-and-play,11
+practical,11
+reinforcing,11
+reliable,11
+resolution,11
+retrieval-augmented,11
+routing,11
+safety,11
+segment,11
+sentiment,11
+sequence,11
+signal,11
+sparsity,11
+spiking,11
+streaming video,11
+think,11
+token pruning,11
+transferable,11
+try-on,11
+uncertainty-aware,11
+video object,11
+visual representation,11
+3d point,10
+aesthetic,10
+ai,10
+augmentation,10
+automated,10
+bottleneck,10
+category discovery,10
+coherent,10
+composed image,10
+composed image retrieval,10
+deblurring,10
+enhance,10
+failure,10
+frequency,10
+fully,10
+generated,10
+human pose,10
+humanoid,10
+hyperbolic,10
+identity,10
+interleaved,10
+lighting,10
+lora,10
+loss,10
+microscopy,10
+multi-object,10
+natural,10
+object pose estimation,10
+optimal transport,10
+partial,10
+patch,10
+potential,10
+prompt learning,10
+radiance,10
+rectified,10
+reward model,10
+reward modeling,10
+simple,10
+single-image,10
+source,10
+spatial intelligence,10
+spherical,10
+steering,10
+talking,10
+text-to-image diffusion,10
+translation,10
+uav,10
+virtual try-on,10
+vla,10
+watermarking,10
+weakly,10
+whole,10
+3dgs,9
+aligned,9
+arbitrary,9
+audio,9
+autoencoders,9
+code,9
+constraint,9
+cooperative,9
+cross-domain few-shot,9
+defense,9
+deformable,9
+detector,9
+dexterous,9
+erasure,9
+error,9
+expressive,9
+forgery,9
+gaze,9
+geo-localization,9
+holistic,9
+image-to-video,9
+imagery,9
+injection,9
+inversion,9
+large-scale dataset,9
+lifelong,9
+machine,9
+manifold,9
+model merging,9
+multimodal sentiment,9
+path,9
+personalization,9
+perturbation,9
+pre-trained,9
+pretrained,9
+prompt tuning,9
+real-world image,9
+reconstructing,9
+reduction,9
+reference,9
+risk,9
+sensor,9
+sketch,9
+slam,9
+small,9
+soft,9
+step,9
+table,9
+teaching,9
+text-to-video,9
+tokenization,9
+variational,9
+video super-resolution,9
+vision model,9
+visual autoregressive,9
+volumetric,9
+weakly supervised,9
+3d point cloud,8
+3d scene understanding,8
+3d-aware,8
+4d gaussian,8
+adapting,8
+affordance,8
+align,8
+autoregressive generation,8
+autoregressive model,8
+character,8
+chart,8
+class-incremental,8
+coarse-to-fine,8
+cognitive,8
+collapse,8
+complementary,8
+concept erasure,8
+conditioning,8
+content,8
+detail,8
+diagnosis,8
+domain generalization,8
+early,8
+effect,8
+empowering,8
+encoders,8
+evolving,8
+experience,8
+functional,8
+gaussians,8
+generalist,8
+grasping,8
+gui agent,8
+guiding,8
+harnessing,8
+hdr,8
+human pose estimation,8
+identity-preserving,8
+image detection,8
+image quality,8
+image representation,8
+improves,8
+incomplete,8
+incremental learning,8
+initialization,8
+inpainting,8
+instance segmentation,8
+instruction-based,8
+intervention,8
+inverse problem,8
+knowledge distillation,8
+learn,8
+mining,8
+mobile,8
+mri,8
+multimodal sentiment analysis,8
+occlusion,8
+open-set,8
+optical flow,8
+parameter-efficient,8
+personalized federated,8
+physics-based,8
+process,8
+propagation,8
+reason,8
+remote sensing image,8
+report,8
+report generation,8
+rl,8
+scenario,8
+scene completion,8
+scene graph,8
+scheduling,8
+sensing image,8
+sentiment analysis,8
+slide,8
+slide image,8
+speculative,8
+structure-aware,8
+surface reconstruction,8
+surgical,8
+temporal grounding,8
+text-guided,8
+text-to-image diffusion model,8
+text-to-image model,8
+tokenizer,8
+transition,8
+unified multimodal model,8
+urban,8
+vehicle,8
+versatile,8
+video anomaly,8
+video anomaly detection,8
+video model,8
+vision-and-language,8
+vision-and-language navigation,8
+visual generation,8
+volume,8
+weather,8
+whole slide,8
+whole slide image,8
+x-ray,8
+360deg,7
+3d semantic,7
+4d gaussian splatting,7
+^2,7
+activation,7
+active learning,7
+adversarial attack,7
+adverse,7
+all-in-one,7
+animatable,7
+asynchronous,7
+awareness,7
+backdoor attack,7
+balanced,7
+benchmark dataset,7
+bi-directional,7
+caching,7
+chain-of-thought reasoning,7
+compressive,7
+confidence,7
+contextual,7
+continual test-time,7
+contrast,7
+description,7
+direct preference,7
+direct preference optimization,7
+distance,7
+distilling,7
+dual-level,7
+earth,7
+efficient visual,7
+embodied agent,7
+engine,7
+evidence,7
+example,7
+extraction,7
+faster,7
+few-shot learning,7
+first,7
+flow estimation,7
+forgetting,7
+gait,7
+gait recognition,7
+generate,7
+generation editing,7
+generative prior,7
+generative video,7
+ground,7
+grpo,7
+hand-object,7
+illumination,7
+image quality assessment,7
+in-the-wild,7
+industrial,7
+integration,7
+latent action,7
+layer-wise,7
+learning 3d,7
+learning unified,7
+lens,7
+localized,7
+lvlm,7
+mesh generation,7
+metric depth,7
+mind,7
+minimal,7
+mitigating hallucination,7
+model unified,7
+monocular depth,7
+multi-modal large,7
+multi-object tracking,7
+multi-view clustering,7
+n't,7
+narrative,7
+object-level,7
+occupancy prediction,7
+ood,7
+out-of-distribution detection,7
+pattern,7
+performance,7
+physics-aware,7
+place,7
+pose-free,7
+projection,7
+property,7
+radiance field,7
+reasoning vision-language,7
+rectified flow,7
+regularization,7
+resolving,7
+semantic scene,7
+similarity,7
+source-free,7
+spectrum,7
+spiking neural,7
+spiking neural network,7
+state space,7
+static,7
+stream,7
+teacher,7
+temporally,7
+token merging,7
+tool,7
+topological,7
+topology,7
+tracing,7
+track,7
+two-stage,7
+unified 3d,7
+unsupervised domain,7
+verification,7
+video compression,7
+video object segmentation,7
+video temporal,7
+video temporal grounding,7
+visual localization,7
+visual question,7
+visual question answering,7
+voxel,7
+weakly-supervised,7
+world modeling,7
+3d geometric,6
+3d head,6
+3d medical,6
+3d perception,6
+3d spatial,6
+3d visual grounding,6
+4d scene,6
+6d,6
+addressing,6
+adjustment,6
+adversarial training,6
+anchored,6
+appearance,6
+articulated object,6
+assembly,6
+asset,6
+b-rep,6
+back,6
+baseline,6
+behavior,6
+biomedical,6
+boundary,6
+cad,6
+camouflaged,6
+camouflaged object,6
+challenge,6
+class-incremental learning,6
+classifier,6
+coding,6
+conflict,6
+conformal,6
+context-aware,6
+continual test-time adaptation,6
+conversion,6
+convolutional,6
+counterfactual,6
+creation,6
+customized,6
+dark,6
+dataset benchmark,6
+datasets,6
+decision,6
+decoder,6
+defect,6
+deformation,6
+demonstration,6
+detect,6
+difference,6
+diffusion bridge,6
+diffusion framework,6
+digital,6
+discriminative,6
+diversity,6
+domain adaptive,6
+driving scene,6
+dynamic 3d,6
+earth observation,6
+efficiency,6
+embeddings,6
+enables,6
+encoder,6
+every,6
+explanation,6
+fidelity,6
+flexible,6
+focus,6
+fusion framework,6
+gaussian head,6
+generalized category,6
+generalized category discovery,6
+generation beyond,6
+generation model,6
+gesture,6
+global-local,6
+grid,6
+grouping,6
+hallucination large,6
+hallucination large vision-language,6
+hand-object interaction,6
+human mesh,6
+image enhancement,6
+interpolation,6
+language-guided,6
+layered,6
+learned,6
+learner,6
+let,6
+light,6
+linear,6
+llm-guided,6
+long-form,6
+long-range,6
+lvlms,6
+make,6
+mean,6
+meanflow,6
+measurement,6
+memory-efficient,6
+model image,6
+model learning,6
+monocular depth estimation,6
+multi-image,6
+multi-modal large language,6
+multi-reference,6
+multi-shot,6
+multi-view image,6
+multimodal understanding,6
+multiview,6
+neural video,6
+object tracking,6
+open-vocabulary 3d,6
+open-vocabulary semantic,6
+panoptic,6
+personalized federated learning,6
+photorealistic,6
+positional,6
+poster,6
+predictive,6
+preserving,6
+prior-guided,6
+privacy,6
+proactive,6
+promptable,6
+ray,6
+reasoning mllms,6
+reasoning segmentation,6
+reasoning vision-language model,6
+recipe,6
+reconstruction model,6
+recurrent,6
+relational,6
+retrieval-augmented generation,6
+rgb,6
+road,6
+robot learning,6
+role,6
+sample,6
+scene text,6
+second,6
+select,6
+self-evolving,6
+semantic alignment,6
+semantic scene completion,6
+sign,6
+social,6
+solution,6
+sound,6
+space model,6
+spatial-temporal,6
+spatially,6
+state space model,6
+stereo matching,6
+synergistic,6
+synergy,6
+synthesizing,6
+tackling,6
+task-aware,6
+test,6
+test-time scaling,6
+test-time training,6
+thermal,6
+training-free open-vocabulary,6
+trajectory prediction,6
+transcriptomics,6
+unposed,6
+unsupervised domain adaptation,6
+video diffusion model,6
+video segmentation,6
+video-language,6
+video-to-audio,6
+vision-language alignment,6
+visual perception,6
+watermark,6
+zero-shot 3d,6
+zero-shot anomaly,6

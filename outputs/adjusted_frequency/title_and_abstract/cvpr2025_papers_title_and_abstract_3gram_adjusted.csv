@@ -677,10 +677,10 @@ nature,116
 pruning,116
 create,115
 depth estimation,115
-le,115
 classifier,114
 conduct,114
 higher,114
+less,114
 universal,114
 addition,113
 distortion,113
@@ -839,7 +839,6 @@ short,91
 test-time,91
 visual feature,91
 advantage,90
-ass,90
 audio-visual,90
 collaborative,90
 combination,90
@@ -968,6 +967,7 @@ subsequently,78
 text-to-video,78
 vision language,78
 alternative,77
+assess,77
 case,77
 decoding,77
 following,77
@@ -1914,7 +1914,6 @@ budget,36
 confusion,36
 consumption,36
 dedicated,36
-dg,36
 diffusion prior,36
 distributed,36
 encompassing,36
@@ -2259,6 +2258,7 @@ dataset distillation,30
 datasets including,30
 denoising diffusion,30
 deterministic,30
+dg,30
 dnns,30
 driving scene,30
 dynamic 3d,30
@@ -2514,7 +2514,6 @@ tokenizer,27
 transferring,27
 unauthorized,27
 unlike existing,27
-v,27
 various downstream,27
 video-based,27
 weighting,27
@@ -3132,7 +3131,6 @@ velocity,21
 vision-centric,21
 visual language,21
 visual scene,21
-w,21
 waymo,21
 weakly-supervised,21
 website,21
@@ -3328,7 +3326,6 @@ explicit 3d,19
 feature across,19
 frame interpolation,19
 fundamentally,19
-g,19
 gaussian-based,19
 geometric detail,19
 geometric structure,19
@@ -3509,6 +3506,7 @@ framework achieves,18
 free-form,18
 frequent,18
 fully exploit,18
+g,18
 generate image,18
 generative diffusion,18
 geometric feature,18
@@ -3558,7 +3556,6 @@ non-rigid,18
 object 's,18
 out-of-domain,18
 outstanding,18
-par,18
 period,18
 periodic,18
 photography,18
@@ -3681,7 +3678,6 @@ excelling,17
 exemplar,17
 existing state-of-the-art method,17
 experimental evaluation,17
-f,17
 f1,17
 fewer parameter,17
 flow model,17
@@ -3716,7 +3712,6 @@ interface,17
 joint training,17
 keyframes,17
 knowledge transfer,17
-l,17
 labor-intensive,17
 landscape,17
 language description,17
@@ -3764,6 +3759,7 @@ outperforming state-of-the-art,17
 outperforms previous method,17
 outperforms prior,17
 paper focus,17
+par,17
 parameterized,17
 pathway,17
 performance extensive,17
@@ -4017,7 +4013,6 @@ photometric,16
 pixel-aligned,16
 pixel-wise,16
 planar,16
-posse,16
 powerful tool,16
 pre-trained vision-language,16
 pre-trained vision-language model,16
@@ -4064,6 +4059,7 @@ transparent,16
 underscoring,16
 unnecessary,16
 user 's,16
+v,16
 validating,16
 video anomaly,16
 video large language,16
@@ -4200,6 +4196,7 @@ issue present,15
 keeping,15
 key contribution,15
 kind,15
+l,15
 large-scale high-quality,15
 large-scale training,15
 largely unexplored,15
@@ -4312,6 +4309,7 @@ video instance,15
 visual concept,15
 visual encoder,15
 vsr,15
+wsss,15
 zero-shot setting,15
 's performance,14
 's training,14
@@ -4617,6 +4615,7 @@ application autonomous,13
 application autonomous driving,13
 artificial neural,13
 artificial neural network,13
+assesses,13
 attack method,13
 attacker,13
 audio visual,13
@@ -4821,6 +4820,7 @@ photorealism,13
 plug-in,13
 point-based,13
 pose regression,13
+possess,13
 post-training quantization,13
 pre-defined,13
 pre-trained text-to-image,13
@@ -5184,7 +5184,6 @@ multimodal input,12
 multimodal reasoning,12
 multiple instance,12
 multiscale,12
-n,12
 na,12
 narration,12
 necessitate,12
@@ -5493,7 +5492,6 @@ encountered,11
 enhance temporal,11
 enhancing performance,11
 enrich,11
-era,11
 euclidean,11
 examining,11
 exceeding,11
@@ -5504,6 +5502,7 @@ experiment synthetic,11
 explain,11
 extent,11
 extract feature,11
+f,11
 face limitation,11
 faced,11
 favorable,11
@@ -5664,7 +5663,6 @@ planner,11
 point-wise,11
 portion,11
 ppo,11
-pr,11
 pre-trained image,11
 predicate,11
 primarily rely,11
@@ -6215,6 +6213,7 @@ point cloud completion,10
 point cloud segmentation,10
 popular benchmark,10
 pose challenge,10
+pr,10
 pre-trained video diffusion,10
 precise 3d,10
 precise camera,10
@@ -6554,7 +6553,7 @@ demonstrated remarkable capability,9
 demonstrated significant,9
 demonstrates significant,9
 depth foundation model,9
-designed ass,9
+designed assess,9
 despite advance,9
 despite advancement,9
 detail image,9
@@ -6565,7 +6564,6 @@ diffusion model demonstrated,9
 diffusion model propose,9
 diffusion model training,9
 diffusion policy,9
-discus,9
 disentangles,9
 disentangling,9
 distance field,9
@@ -6848,6 +6846,7 @@ multi-view generation,9
 multimodal fusion,9
 multiple concept,9
 multiplication,9
+n,9
 need additional,9
 negative impact,9
 network 's,9
@@ -7406,6 +7405,7 @@ diffusion probabilistic,8
 diffusion probabilistic model,8
 diffusion-based model,8
 diminishing,8
+discus,8
 distance metric,8
 diverse data,8
 diverse downstream,8
@@ -7451,6 +7451,7 @@ entertainment,8
 epipolar,8
 epoch,8
 equal,8
+era,8
 erased,8
 essential autonomous,8
 estimation 3d,8
@@ -7657,11 +7658,11 @@ large-scale real-world,8
 large-scale synthetic dataset,8
 layout generation,8
 ldr,8
-le attention,8
 learning cil,8
 learning cl,8
 learning performance,8
 learning robust,8
+less attention,8
 let,8
 leverage generative,8
 leverage powerful,8
@@ -8138,6 +8139,7 @@ visual navigation,8
 visual odometry,8
 vit model,8
 vlms like,8
+vss,8
 vulnerable adversarial,8
 want,8
 wearable,8
@@ -9946,6 +9948,7 @@ detection transformer,6
 determined,6
 detr,6
 dfm,6
+dgss,6
 different aspect,6
 different camera,6
 different data,6
@@ -10171,6 +10174,7 @@ framework multimodal,6
 framework namely,6
 freely,6
 freezing,6
+fss,6
 full 3d,6
 full-body motion,6
 function model,6
@@ -10443,7 +10447,6 @@ late fusion,6
 latent point,6
 latent vector,6
 lay,6
-le effective,6
 learn complex,6
 learned knowledge,6
 learning across,6
@@ -10455,6 +10458,7 @@ learning system,6
 learning unified,6
 learning video,6
 leave,6
+less effective,6
 leverage complementary,6
 leverage novel,6
 leverage prior,6
@@ -11389,6 +11393,7 @@ vlms clip,6
 vmamba,6
 vos,6
 vqvae,6
+w,6
 way future,6
 wearing,6
 web-scale,6

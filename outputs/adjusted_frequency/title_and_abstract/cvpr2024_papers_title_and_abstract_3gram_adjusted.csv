@@ -513,7 +513,7 @@ model 's,130
 provides,130
 applied,129
 area,129
-le,129
+less,129
 notably,129
 publicly,129
 u,129
@@ -1500,7 +1500,6 @@ acquisition,44
 allow,44
 ambiguous,44
 answer,44
-ass,44
 benchmark demonstrate,44
 blind,44
 candidate,44
@@ -1595,6 +1594,7 @@ voxel,42
 whether,42
 2d diffusion model,41
 anything model,41
+assess,41
 awareness,41
 catastrophic,41
 cnn,41
@@ -2071,7 +2071,6 @@ text-to-3d generation,31
 transfer learning,31
 tumor,31
 typical,31
-v,31
 3d asset,30
 3d human pose,30
 3d mesh,30
@@ -2083,7 +2082,6 @@ brings,30
 central,30
 comprehensive evaluation,30
 delve,30
-dg,30
 distinguish,30
 early,30
 edits,30
@@ -2166,7 +2164,6 @@ model mllms,29
 oriented,29
 people,29
 photometric stereo,29
-posse,29
 pre-trained diffusion,29
 project website,29
 prone,29
@@ -2183,6 +2180,7 @@ total,29
 training time,29
 unit,29
 utilized,29
+v,29
 various application,29
 various datasets,29
 vulnerable,29
@@ -2193,7 +2191,6 @@ affinity,28
 angle,28
 approach leverage,28
 assume,28
-av,28
 avoiding,28
 brain,28
 counterfactual,28
@@ -2256,6 +2253,7 @@ widespread,28
 3d generation,27
 3d instance,27
 augment,27
+av,27
 blending,27
 center,27
 cl,27
@@ -2372,7 +2370,6 @@ orientation,26
 others,26
 outperforms baseline,26
 pairwise,26
-par,26
 performance method,26
 phenomenon,26
 previous approach,26
@@ -2459,6 +2456,7 @@ neural rendering,25
 non-linear,25
 novel category,25
 outlier,25
+par,25
 pascal,25
 pathology,25
 performance existing,25
@@ -2930,7 +2928,6 @@ video captioning,21
 video diffusion model,21
 video object segmentation,21
 visual instruction,21
-w,21
 watermark,21
 whose,21
 within image,21
@@ -2963,6 +2960,7 @@ descent,20
 describing,20
 design novel,20
 detection model,20
+dg,20
 diffuse,20
 directional,20
 distilling,20
@@ -3020,6 +3018,7 @@ outperforms prior,20
 paper aim,20
 pas,20
 pose shape,20
+possess,20
 possibility,20
 pre-trained vision-language,20
 presented,20
@@ -3775,6 +3774,7 @@ vlp,16
 well-trained,16
 work address,16
 work focus,16
+wsss,16
 zero-shot classification,16
 's effectiveness,15
 's eye view,15
@@ -5420,6 +5420,7 @@ despite significant,10
 detection localization,10
 deviate,10
 deviation,10
+dgss,10
 diagram,10
 different training,10
 diffusion feature,10
@@ -5546,9 +5547,9 @@ lane detection,10
 large-kernel,10
 layer-wise,10
 ldms,10
-le training,10
 learning mil,10
 leaving,10
+less training,10
 leverage pretrained,10
 lift 2d,10
 likelihood,10
@@ -5997,7 +5998,6 @@ diffusion-based image,9
 directed,9
 discovered,9
 discriminative representation,9
-discus,9
 distillation framework,9
 distillation loss,9
 distinguished,9
@@ -6032,7 +6032,6 @@ explaining,9
 expressed,9
 extensive experiment verify,9
 extensively evaluate,9
-f,9
 face editing,9
 facial representation,9
 facilitate future,9
@@ -6728,12 +6727,12 @@ detection datasets,8
 detection framework,8
 detection image,8
 devise novel,8
-dg method,8
 different object,8
 diffusion model generates,8
 dilation,8
 diminishes,8
 discriminate,8
+discus,8
 distillation approach,8
 distribution matching,8
 distribution paper,8
@@ -6932,7 +6931,6 @@ joint representation,8
 kernel size,8
 key design,8
 keyframes,8
-l,8
 labeled sample,8
 lack explicit,8
 lack large-scale,8
@@ -7955,7 +7953,6 @@ large-scale benchmark,7
 large-scale diffusion,7
 large-scale model,7
 large-scale synthetic,7
-le effective,7
 leaderboard,7
 learn robust,7
 learnable query,7
@@ -7968,6 +7965,7 @@ learning system,7
 learning-based approach,7
 learning-free,7
 leftrefill,7
+less effective,7
 leverage knowledge,7
 lidar camera,7
 lidar localization,7
@@ -8195,6 +8193,7 @@ polygon,7
 polynomial,7
 popular datasets,7
 posed image,7
+possesses,7
 potential solution,7
 powered,7
 practical solution,7
@@ -9411,7 +9410,6 @@ large-scale text-to-image,6
 large-scale training,6
 large-scale video,6
 ldr image,6
-le training time,6
 lead better,6
 lead improved,6
 lead significant,6
@@ -9431,6 +9429,7 @@ learning phase,6
 learning setting,6
 learning stage,6
 learning visual,6
+less training time,6
 leverage power,6
 leverage recent,6
 lidar scene,6
@@ -9953,7 +9952,7 @@ segmentation ha,6
 segmentation image,6
 segmentation learning,6
 segmentation semantic,6
-segmentation w,6
+segmentation wsss,6
 segmentation-based,6
 self-,6
 self-consistency,6
@@ -9964,7 +9963,7 @@ semantic category,6
 semantic concept,6
 semantic matching,6
 semantic meaning,6
-semantic segmentation w,6
+semantic segmentation wsss,6
 semantic similarity,6
 semi-supervised method,6
 sensory,6
@@ -10092,7 +10091,6 @@ synthesis model,6
 synthesize image,6
 synthesizing novel,6
 synthetic sample,6
-ta,6
 tackle problem propose,6
 take account,6
 taking advantage,6

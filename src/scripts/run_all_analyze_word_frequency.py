@@ -36,7 +36,7 @@ if __name__ == "__main__":
         try:
             # Run the script with the specified arguments.
             result = subprocess.run(
-                ["poetry", "run", "python3", args.script_path, "-i", json_path],
+                ["uv", "run", "python3", args.script_path, "-i", json_path],
                 check=True,
                 capture_output=True,
                 text=True,
@@ -55,7 +55,7 @@ if __name__ == "__main__":
             # Run the script with the specified arguments.
             result = subprocess.run(
                 [
-                    "poetry",
+                    "uv",
                     "run",
                     "python3",
                     args.script_path,
