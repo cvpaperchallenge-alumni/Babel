@@ -101,10 +101,14 @@ All commands in the rest of this README assume you are inside the container (or 
 uv run python3 src/scripts/scrape_conference_page.py \
     -c <conference> \
     -y <year> \
-    -o ./data/json
+    -o ./data/json \
+    -s <source>
 ```
 
 `-c / --conference` accepts: `cvpr`, `iccv`, `eccv`, `neurips`, `icml`, `cvprw`.
+
+`-s / --source` accepts `proceedings` (default) and `accepted`. `proceedings` reads the open access repository of the venue, which is only published once the proceedings are out. `accepted` reads the accepted-papers page of the conference site, which is available earlier but carries no abstract. Only `eccv` supports `accepted` so far.
+
 The script writes `./data/json/{conference}{year}_papers.json` containing a list of objects like:
 
 ```json
@@ -122,7 +126,8 @@ The script writes `./data/json/{conference}{year}_papers.json` containing a list
 >
 > - **CVPR / ICCV (`cvf.py`)** — for `year <= 2020`, the CVF site only paginates per day; for `year >= 2021`, the scraper hits `?day=all`. CVPR validator allows 2013–2025; ICCV is odd years only. **Bump the range in `validate_conference` before scraping a new year**, otherwise it raises immediately.
 > - **CVPRW (`cvf_ws.py`)** — 2021–2023 share one HTML format; 2018–2020 use a different `*_w42.py` format. The branch in `get_paper_page_urls` reflects this. Validator range: 2018–2023.
-> - **ECCV (`eccv.py`)** — `papers.php` lists every year on one page; filtering is by URL substring. No validator — an unknown year returns an empty list silently.
+> - **ECCV (`eccv.py`)** — `papers.php` lists every year on one page; filtering is by URL substring. No validator — an unknown year returns an empty list silently, which is also what happens for a year whose proceedings are not published yet.
+> - **ECCV fallback (`eccv_accepted.py`, `-s accepted`)** — reads `https://eccv.ecva.net/Conferences/{year}/AcceptedPapers`, which lists title and authors only, so `abstract` and `pdf` are always `null`. Author names are separated by U+22C5 DOT OPERATOR here (the CVPR page uses U+00B7 MIDDLE DOT). Rows sharing a poster URL are duplicates in the upstream HTML and are dropped. Because there are no abstracts, run only the `title_only` analysis for such a year, then re-scrape with `-s proceedings` once the proceedings land and regenerate both.
 > - **NeurIPS (`neurips.py`)** — 2022 and 2023 need a different CSS selector than other years. `Abstract` in the URL slug is rewritten to `Paper` for the PDF link.
 > - **ICML (`icml.py`)** — uses the OpenReview API v2, not HTML scraping. Output JSON uses the key `authors` (instead of `author`), which differs from the other scrapers — keep this in mind when feeding it into downstream stages.
 > - **CVPR fallback (`cvpr.py`)** — when CVF Open Access does not yet have the abstracts, this module scrapes only title+authors from the official accepted-papers page and supplements abstract / page / pdf via arXiv search. It is currently *not* wired into `scrape_conference_page.py` (the relevant lines are commented out); call it directly:

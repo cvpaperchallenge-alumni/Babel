@@ -8,15 +8,24 @@ import logging
 import pathlib
 from typing import Final, Iterable
 
-from src import cvf, cvf_ws, eccv, icml, neurips
+from src import cvf, cvf_ws, eccv, eccv_accepted, icml, neurips
 from src.utils import serialize_for_json_dump
 
 logger: Final = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
+# Sources a conference page can be scraped from. "proceedings" is the open
+# access repository of the venue, which is only available once the proceedings
+# are published. "accepted" is the accepted papers page of the conference site,
+# which is available earlier but carries no abstract.
+SOURCES: Final[tuple[str, ...]] = ("proceedings", "accepted")
+
 
 def scrape_conference_page(
-    output_dir: pathlib.Path, conference: str, year: int
+    output_dir: pathlib.Path,
+    conference: str,
+    year: int,
+    source: str = "proceedings",
 ) -> None:
     """Scrape conference page to extract paper information and save it
     as JSON file. Output file name is `{conference}{year}_papers.json`.
@@ -25,8 +34,19 @@ def scrape_conference_page(
         output_dir (str): Output directory to save the JSON file.
         conference (str): The conference name.
         year (int): The year of the conference.
+        source (str): Which page to scrape. See `SOURCES`. Only `eccv`
+            supports the `accepted` source so far.
+
+    Raises:
+        ValueError: If the conference or the source is not supported.
 
     """
+    if source not in SOURCES:
+        raise ValueError(f"Source {source} is not supported.")
+    if source == "accepted" and conference != "eccv":
+        raise ValueError(
+            f"Source accepted is only supported for eccv, not {conference}."
+        )
     # Define output path.
     output_path: Final = output_dir / f"{conference}{year}_papers.json"
 
@@ -44,7 +64,13 @@ def scrape_conference_page(
     if conference in ["cvpr", "iccv"]:
         papers = cvf.get_papers(conference=conference, year=year)
     elif conference == "eccv":
-        papers = eccv.get_papers(year=year)
+        if source == "accepted":
+            # NOTE: The ECVA open access repository does not publish a year
+            # until its proceedings are out. Use this source until then, then
+            # re-scrape with the default source to fill in the abstracts.
+            papers = eccv_accepted.get_papers(year=year)
+        else:
+            papers = eccv.get_papers(year=year)
     elif conference == "neurips":
         papers = neurips.get_papers(conference=conference, year=year)
     elif conference == "cvprw":
@@ -86,8 +112,19 @@ if __name__ == "__main__":
         required=True,
         help="The year of the conference.",
     )
+    parser.add_argument(
+        "--source",
+        "-s",
+        choices=SOURCES,
+        type=str,
+        default="proceedings",
+        help="Which page to scrape. Only eccv supports 'accepted'.",
+    )
     args = parser.parse_args()
 
     scrape_conference_page(
-        output_dir=args.output_dir, conference=args.conference, year=args.year
+        output_dir=args.output_dir,
+        conference=args.conference,
+        year=args.year,
+        source=args.source,
     )
