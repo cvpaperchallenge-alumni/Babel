@@ -30,8 +30,11 @@
 
 |  年  | ソース | 論文数（スクレイプ結果）| メモ |
 | ---- | ---- | ---- | ---- |
-| 2022 | https://www.ecva.net/papers.php | <ここ埋める> |
-| 2020 | https://www.ecva.net/papers.php | <ここ埋める> | - アイテム1<br>- アイテム2<br>- アイテム3
+| 2026 | https://eccv.ecva.net/Conferences/2026/AcceptedPapers | 2864 | - ECVA の Open Access（https://www.ecva.net/papers.php ）が 2026 をまだ公開していないため、会議サイトの採択論文ページから取得（`--source accepted`）<br>- 同ページは abstract と PDF を掲載していないため、両フィールドは全件 `null`。`title_only` の分析結果のみ生成しており、`title_and_abstract` は未生成<br>- ページ上の 2882 行のうち 18 行は他の行と title / author / poster URL が完全一致する重複のため除外し、2864 件とした<br>- Proceedings 公開後に `--source proceedings` で再取得して差し替えること |
+| 2024 | https://www.ecva.net/papers.php | 2387 |
+| 2022 | https://www.ecva.net/papers.php | 1645 |
+| 2020 | https://www.ecva.net/papers.php | 1358 | - アイテム1<br>- アイテム2<br>- アイテム3
+| 2018 | https://www.ecva.net/papers.php | 776 |
 
 ## NeurIPS
 
@@ -44,7 +47,7 @@
 | 2019 | https://papers.nips.cc/paper_files/paper/2019 | 1428 |
 | 2018 | https://papers.nips.cc/paper_files/paper/2018 | 1009 | - A loss framework for calibrated anomaly detectionのauthorは手動で入力 |
 
-## CVPR
+## CVPRW
 
 |  年  | ソース | 論文数（スクレイプ結果）| メモ |
 | ---- | ---- | ---- | ---- |
